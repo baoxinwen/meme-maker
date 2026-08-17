@@ -1,0 +1,92 @@
+{
+  "name": "meme-maker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "description": "现代化的浏览器端表情包生成器（React + TypeScript + Vite）",
+  "keywords": [
+    "meme",
+    "meme-generator",
+    "gif",
+    "canvas",
+    "react",
+    "typescript",
+    "pwa"
+  ],
+  "author": "baoxinwen <baoxinwen_personal@163.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baoxinwen/meme-maker.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui",
+    "test:templates": "vitest run --config tests/scripts/vitest.config.ts tests/scripts",
+    "test:gen-previews": "vitest run --config tests/scripts/vitest.config.ts tests/scripts/gen-template-previews.test.ts",
+    "test:e2e": "playwright test",
+    "test:e2e:install": "playwright install --with-deps chromium",
+    "lint": "biome check src tests vite.config.ts playwright.config.ts",
+    "lint:fix": "biome check --write src tests vite.config.ts playwright.config.ts",
+    "format": "biome format --write src tests vite.config.ts playwright.config.ts",
+    "typecheck": "tsc -b --noEmit",
+    "check": "pnpm typecheck && pnpm lint && pnpm test && pnpm test:templates && pnpm build",
+    "check:ci": "pnpm check && pnpm test:e2e"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "fabric": "^7.4.0",
+    "gifenc": "^1.0.3",
+    "gifuct-js": "^2.1.2",
+    "jszip": "^3.10.1",
+    "loglevel": "^1.9.2",
+    "lucide-react": "^1.39.0",
+    "radix-ui": "^1.6.7",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-image-crop": "11.1.2",
+    "react-router-dom": "7.18.3",
+    "sonner": "^2.0.8",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.5.4",
+    "zundo": "^2.3.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@napi-rs/canvas": "^1.0.8",
+    "@playwright/test": "^1.62.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^26.4.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vitest/ui": "^3.0.0",
+    "jsdom": "^26.0.0",
+    "tailwindcss": "^4.3.3",
+    "tw-animate-css": "^1.1.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.7",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@10.18.1",
+  "pnpm": {
+    "overrides": {
+      "postcss@<8.5.23": ">=8.5.23",
+      "nanoid@<3.3.18": ">=3.3.18",
+      "brace-expansion@2": "2.1.4",
+      "brace-expansion@5": "5.0.9",
+      "fast-uri@<3.1.5": ">=3.1.5",
+      "browserslist": ">=4.28.8"
+    }
+  }
+}

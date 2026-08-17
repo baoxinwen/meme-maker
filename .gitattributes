@@ -1,0 +1,17 @@
+# 统一换行符：所有文本文件入库为 LF，检出也是 LF（Windows/Linux/macOS 一致）
+* text=auto eol=lf
+
+# 二进制资源禁止任何换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.woff binary
+*.woff2 binary
+*.mp4 binary
+*.webm binary
+*.zip binary
