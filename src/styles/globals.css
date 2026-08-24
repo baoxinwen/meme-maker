@@ -1,0 +1,404 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* 类名策略的暗色变体：html.dark 时启用 dark: 工具类与暗色令牌 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+.avatar-crop-editor {
+  --rc-drag-handle-size: 48px;
+  --rc-drag-handle-mobile-size: 48px;
+  --rc-drag-bar-size: 12px;
+  --rc-focus-color: #5f8cff;
+}
+
+.avatar-crop-editor .ReactCrop__drag-handle {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+.avatar-crop-editor .ReactCrop__drag-handle::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  content: "";
+  background: var(--color-primary);
+  border: 2px solid white;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px rgb(15 23 42 / 35%);
+  transform: translate(-50%, -50%);
+}
+
+.avatar-crop-editor .ReactCrop__drag-handle:focus::after {
+  outline: 3px solid var(--rc-focus-color);
+  outline-offset: 2px;
+}
+
+/**
+ * 活泼梗图风设计令牌。
+ * 浅色 = 奶油纸底 + 墨线描边 + 错位硬阴影；暗色 = 午夜紫 + 糖果点缀。
+ * 语义变量名与 shadcn 约定保持一致，仅替换取值。
+ */
+@layer base {
+  :root {
+    --background: #fdf7ee;
+    --foreground: #2b2340;
+    --card: #fffdf9;
+    --card-foreground: #2b2340;
+    --popover: #fffdf9;
+    --popover-foreground: #2b2340;
+    --primary: #f5502b;
+    --primary-foreground: #ffffff;
+    --secondary: #faf3e8;
+    --secondary-foreground: #43375c;
+    --muted: #f3ead9;
+    --muted-foreground: #7c7291;
+    --accent: #ffe9e2;
+    --accent-foreground: #b23a17;
+    --destructive: #d8302f;
+    --destructive-foreground: #ffffff;
+    --border: #ecdcc3;
+    --input: #dcc9a8;
+    --ring: #f5502b;
+    --radius: 0.625rem;
+
+    /* 梗图风专属：墨线 / 糖果三色 / 棋盘格 / 上传虚线 */
+    --line: #26203a;
+    --banana: #ffc93c;
+    --banana-foreground: #2b2340;
+    --mint: #20a97c;
+    --mint-foreground: #ffffff;
+    --mint-weak: #dcf5ea;
+    --grape: #8d63f2;
+    --grape-foreground: #ffffff;
+    --checker-a: #f4ead9;
+    --checker-b: #fdf8ef;
+    --dropzone-border: #e2b98c;
+
+    /* GIF/IMG 内容类型标识 */
+    --media-gif: #8d63f2;
+    --media-gif-foreground: #ffffff;
+    --media-img: #2f7fd6;
+    --media-img-foreground: #ffffff;
+
+    --font-display: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif,
+      system-ui, sans-serif;
+    --font-body: "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", ui-sans-serif,
+      system-ui, sans-serif;
+  }
+
+  .dark {
+    --background: #211a2b;
+    --foreground: #f3edfa;
+    --card: #2b2237;
+    --card-foreground: #f3edfa;
+    --popover: #2b2237;
+    --popover-foreground: #f3edfa;
+    --primary: #ff7048;
+    --primary-foreground: #2a0f06;
+    --secondary: #342a44;
+    --secondary-foreground: #f3edfa;
+    --muted: #282036;
+    --muted-foreground: #b0a5c4;
+    --accent: #40284a;
+    --accent-foreground: #ffb59d;
+    --destructive: #e5484d;
+    --destructive-foreground: #ffffff;
+    --border: #43365a;
+    --input: #554573;
+    --ring: #ff7048;
+
+    --line: #120d1c;
+    --banana: #ffd35c;
+    --banana-foreground: #171226;
+    --mint: #38cf98;
+    --mint-foreground: #10281e;
+    --mint-weak: #1e3a30;
+    --grape: #a986ff;
+    --grape-foreground: #171226;
+    --checker-a: #282034;
+    --checker-b: #2e2540;
+    --dropzone-border: #8d63f2;
+
+    --media-gif: #a986ff;
+    --media-gif-foreground: #171226;
+    --media-img: #5aa2e8;
+    --media-img-foreground: #10231f;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-line: var(--line);
+  --color-banana: var(--banana);
+  --color-banana-foreground: var(--banana-foreground);
+  --color-mint: var(--mint);
+  --color-mint-weak: var(--mint-weak);
+  --color-mint-foreground: var(--mint-foreground);
+  --color-grape: var(--grape);
+  --color-media-gif: var(--media-gif);
+  --color-media-gif-foreground: var(--media-gif-foreground);
+  --color-media-img: var(--media-img);
+  --color-media-img-foreground: var(--media-img-foreground);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  /* 圆角阶梯：sm 按钮/输入 → xl 大卡片 */
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: var(--radius);
+  --radius-lg: 0.875rem;
+  --radius-xl: 1.125rem;
+
+  /* 错位硬阴影（配合 border-line 使用） */
+  --shadow-pop-sm: 2px 2px 0 0 var(--line);
+  --shadow-pop: 3px 3px 0 0 var(--line);
+  --shadow-pop-lg: 5px 5px 0 0 var(--line);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    min-width: 320px;
+  }
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+  ::selection {
+    background-color: rgba(245, 80, 43, 0.24);
+    color: var(--color-foreground);
+  }
+  code {
+    font-family: ui-monospace, "SFMono-Regular", "Cascadia Code", "Consolas", monospace;
+    font-size: 0.85em;
+    background: var(--color-muted);
+    padding: 0.1em 0.4em;
+    border-radius: 0.25rem;
+    border: 1px solid var(--color-border);
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--input);
+    border-radius: var(--radius);
+    border: 2px solid var(--color-background);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--muted-foreground);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+  @media (pointer: coarse) {
+    [data-slot="button"] {
+      min-height: 2.75rem;
+    }
+    [data-slot="button"]:has(> svg:only-child) {
+      min-width: 2.75rem;
+    }
+    [data-slot="input"],
+    [data-slot="select-trigger"],
+    input[type="color"] {
+      min-height: 2.75rem;
+    }
+    [data-slot="label"][for] {
+      display: flex;
+      min-height: 2.75rem;
+      align-items: center;
+    }
+    input[type="checkbox"] {
+      min-width: 1.5rem;
+      min-height: 1.5rem;
+    }
+    [data-slot="slider"] {
+      min-height: 2.75rem;
+    }
+    [data-slot="slider-thumb"] {
+      min-width: 1.5rem;
+      min-height: 1.5rem;
+    }
+    [data-frame-control] {
+      min-width: 2.75rem;
+      min-height: 2.75rem;
+    }
+    [data-frame-item] {
+      min-width: 6rem;
+    }
+  }
+}
+
+@media (pointer: coarse) {
+  .app-shell label:has(input[type="checkbox"]) {
+    min-height: 2.75rem;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0;
+    font-weight: 750;
+  }
+
+  .app-shell {
+    min-height: 100dvh;
+    background: var(--color-background);
+  }
+
+  /* 主面板：墨线描边 + 错位硬阴影的浮起卡片 */
+  .surface-panel {
+    border: 2px solid var(--line);
+    border-radius: var(--radius-lg);
+    background: var(--color-card);
+    box-shadow: var(--shadow-pop);
+  }
+
+  /* 嵌套工具条/内嵌面板：小一号的错位阴影 */
+  .tool-panel {
+    border: 2px solid var(--line);
+    border-radius: var(--radius-md);
+    background: var(--color-card);
+    box-shadow: var(--shadow-pop-sm);
+  }
+
+  .status-pill {
+    display: inline-flex;
+    min-height: 1.75rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.375rem;
+    border-radius: 999px;
+    border: 2px solid var(--line);
+    background: var(--color-secondary);
+    padding: 0 0.625rem;
+    font-size: 0.72rem;
+    font-weight: 750;
+    line-height: 1;
+    color: var(--color-muted-foreground);
+  }
+
+  .status-pill[data-tone="done"] {
+    background: var(--mint-weak);
+    color: var(--mint);
+  }
+
+  .status-pill[data-tone="info"] {
+    background: color-mix(in srgb, var(--grape) 16%, var(--color-card));
+    color: var(--grape);
+  }
+
+  .status-pill[data-tone="amber"] {
+    background: color-mix(in srgb, var(--banana) 30%, var(--color-card));
+    color: var(--accent-foreground);
+  }
+
+  /* 预览/画布舞台：棋盘格体现透明区域（描边走 inset 阴影，不占布局尺寸） */
+  .canvas-stage {
+    border-radius: var(--radius-md);
+    background: linear-gradient(
+        45deg,
+        var(--checker-a) 25%,
+        transparent 25%,
+        transparent 75%,
+        var(--checker-a) 75%
+      ),
+      linear-gradient(
+        45deg,
+        var(--checker-a) 25%,
+        transparent 25%,
+        transparent 75%,
+        var(--checker-a) 75%
+      ), var(--checker-b);
+    background-position: 0 0, 12px 12px;
+    background-size: 24px 24px;
+    box-shadow: inset 0 0 0 2px var(--line), var(--shadow-pop-sm);
+  }
+
+  .upload-dropzone {
+    border: 2px dashed var(--dropzone-border);
+    background: color-mix(in srgb, var(--grape) 5%, var(--color-card));
+    box-shadow: none;
+  }
+
+  /* 成品贴纸框 */
+  .sticker-frame {
+    position: relative;
+    border-radius: 1rem;
+    background: var(--color-card);
+    padding: 10px;
+    border: 2px solid var(--line);
+    box-shadow: var(--shadow-pop-lg);
+  }
+
+  .step-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.65rem;
+    height: 1.65rem;
+    border-radius: calc(var(--radius) - 2px);
+    border: 2px solid var(--line);
+    background: var(--banana);
+    color: var(--banana-foreground);
+    font-family: var(--font-display);
+    font-size: 0.92rem;
+    font-weight: 800;
+    line-height: 1;
+    box-shadow: var(--shadow-pop-sm);
+  }
+
+  /* 彩色页头（浅色香蕉黄 / 暗色葡萄紫） */
+  .fun-topbar {
+    border-bottom: 2px solid var(--line);
+    background: var(--banana);
+    color: var(--banana-foreground);
+  }
+
+  .dark .fun-topbar {
+    background: var(--grape);
+    color: var(--grape-foreground);
+  }
+
+  /* 虚线分隔（检查器分区之间） */
+  .fun-divider {
+    border-bottom: 2px dashed var(--input);
+  }
+}
