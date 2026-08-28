@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [400, 190, 300, 300],
+      "square": true,
+      "round": true,
+      "avatarOnTop": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[这种情况你应该致电TA]",
+      "area": [50, 20, 700, 130],
+      "minSize": 20,
+      "maxSize": 70
+    }
+  ],
+  "alias": ["致电", "你应该致电"]
+}

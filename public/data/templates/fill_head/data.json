@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [150, 2, 210, 170],
+      "fit": "COVER"
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[满脑子都是它]",
+      "area": [20, 458, 528, 550],
+      "minSize": 30,
+      "maxSize": 65,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["满脑子"]
+}

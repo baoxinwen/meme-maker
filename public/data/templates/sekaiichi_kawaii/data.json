@@ -1,0 +1,36 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        45,
+        45,
+        "if(gt(avatar0Width, 1.155 * avatar0Height), 810, 585)",
+        "if(gt(avatar0Width, 1.155 * avatar0Height), 416, 810)"
+      ],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "if(gt(avatar0Width, 1.155 * avatar0Height), 900, 675)",
+      "if(gt(avatar0Width, 1.155 * avatar0Height), 506, 900)"
+    ],
+    "layers": [
+      {
+        "asset": "0.png",
+        "when": "gt(avatar0Width, 1.155 * avatar0Height)",
+        "pos": [0, 0]
+      },
+      {
+        "asset": "1.png",
+        "when": "lte(avatar0Width, 1.155 * avatar0Height)",
+        "pos": [0, 0]
+      }
+    ]
+  },
+  "alias": ["世界第一可爱"]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [23, 231, 170, 170],
+      "square": true,
+      "avatarOnTop": true
+    }
+  ],
+  "text": [],
+  "alias": ["不要靠近"]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[好想去海边啊～]",
+      "area": [520, 0, 1060, 220],
+      "minSize": 40,
+      "maxSize": 140,
+      "color": "#66ccff"
+    }
+  ],
+  "alias": ["洛天依说", "天依说"]
+}

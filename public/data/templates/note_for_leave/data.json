@@ -1,0 +1,84 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [300, 290, 450, 400],
+      "fit": "CONTAIN"
+    }
+  ],
+  "text": [
+    {
+      "text": "请假条",
+      "area": [40, 20, 760, 180],
+      "minSize": 80,
+      "maxSize": 100,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    },
+    {
+      "text": "本人",
+      "area": [40, 180, 180, 270],
+      "minSize": 40,
+      "maxSize": 50
+    },
+    {
+      "text": "$option[name]",
+      "area": [180, 180, 500, 270],
+      "minSize": 30,
+      "maxSize": 50,
+      "align": "CENTER"
+    },
+    {
+      "text": "因",
+      "area": [500, 180, 760, 270],
+      "minSize": 40,
+      "maxSize": 50
+    },
+    {
+      "text": "$txt1[想玩原神]",
+      "area": [40, 300, 285, 700],
+      "minSize": 40,
+      "maxSize": 90,
+      "font": "MiSans",
+      "color": "#ff0000",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[date]请假一天",
+      "area": [40, 720, 760, 790],
+      "minSize": 35,
+      "maxSize": 50
+    },
+    {
+      "text": "望领导批准！！！",
+      "area": [40, 800, 760, 900],
+      "minSize": 55,
+      "maxSize": 75,
+      "font": "MiSans",
+      "style": "BOLD"
+    }
+  ],
+  "background": {
+    "size": [800, 950],
+    "color": "#ffffff"
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "name",
+      "label": "请假人",
+      "default": "用户",
+      "maxLength": 20
+    },
+    {
+      "type": "TEXT",
+      "key": "date",
+      "label": "日期",
+      "default": "2026年7月16日",
+      "maxLength": 20
+    }
+  ],
+  "alias": ["请假条"]
+}

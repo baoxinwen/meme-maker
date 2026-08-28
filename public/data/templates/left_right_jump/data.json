@@ -1,0 +1,58 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "when": "lt(frameIndex, 15)",
+      "pos": [
+        [200, 30, 100, "100 * avatar0Height / avatar0Width"],
+        [185.714, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [171.429, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [157.143, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [142.857, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [128.571, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [114.286, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [100, 30, 100, "100 * avatar0Height / avatar0Width"],
+        [85.714, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [71.429, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [57.143, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [42.857, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [28.571, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [14.286, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [0, 30, 100, "100 * avatar0Height / avatar0Width"]
+      ],
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "gte(frameIndex, 15)",
+      "pos": [
+        [0, 30, 100, "100 * avatar0Height / avatar0Width"],
+        [14.286, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [28.571, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [42.857, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [57.143, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [71.429, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [85.714, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [100, 30, 100, "100 * avatar0Height / avatar0Width"],
+        [114.286, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [128.571, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [142.857, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [157.143, 15.306, 100, "100 * avatar0Height / avatar0Width"],
+        [171.429, 17.755, 100, "100 * avatar0Height / avatar0Width"],
+        [185.714, 22.653, 100, "100 * avatar0Height / avatar0Width"],
+        [200, 30, 100, "100 * avatar0Height / avatar0Width"]
+      ],
+      "style": ["MIRROR"],
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [300, "100 * avatar0Height / avatar0Width + 30"],
+    "color": "#ffffff00",
+    "length": 30
+  },
+  "delay": 40,
+  "alias": ["左右横跳"]
+}

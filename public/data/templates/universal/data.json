@@ -1,0 +1,202 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        "if(eq(option_position, 3), 120, 0)",
+        500,
+        "500 * avatar0Height / avatar0Width"
+      ],
+      "fit": "FILL"
+    }
+  ],
+  "text": [
+    {
+      "text": "$option[message]",
+      "when": "and(lt(option_position, 3), eq(option_align, 0))",
+      "area": [
+        "10 + option_x_offset",
+        "if(eq(option_position, 0), 0, if(eq(option_position, 1), 500 * avatar0Height / avatar0Width - 120, 250 * avatar0Height / avatar0Width - 60)) + option_y_offset",
+        "490 + option_x_offset",
+        "if(eq(option_position, 0), 120, if(eq(option_position, 1), 500 * avatar0Height / avatar0Width, 250 * avatar0Height / avatar0Width + 60)) + option_y_offset"
+      ],
+      "minSize": "option_size",
+      "maxSize": "option_size",
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 5,
+      "angle": "option_rotate",
+      "origin": "CENTER",
+      "align": "LEFT"
+    },
+    {
+      "text": "$option[message]",
+      "when": "and(lt(option_position, 3), eq(option_align, 1))",
+      "area": [
+        "10 + option_x_offset",
+        "if(eq(option_position, 0), 0, if(eq(option_position, 1), 500 * avatar0Height / avatar0Width - 120, 250 * avatar0Height / avatar0Width - 60)) + option_y_offset",
+        "490 + option_x_offset",
+        "if(eq(option_position, 0), 120, if(eq(option_position, 1), 500 * avatar0Height / avatar0Width, 250 * avatar0Height / avatar0Width + 60)) + option_y_offset"
+      ],
+      "minSize": "option_size",
+      "maxSize": "option_size",
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 5,
+      "angle": "option_rotate",
+      "origin": "CENTER",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[message]",
+      "when": "and(lt(option_position, 3), eq(option_align, 2))",
+      "area": [
+        "10 + option_x_offset",
+        "if(eq(option_position, 0), 0, if(eq(option_position, 1), 500 * avatar0Height / avatar0Width - 120, 250 * avatar0Height / avatar0Width - 60)) + option_y_offset",
+        "490 + option_x_offset",
+        "if(eq(option_position, 0), 120, if(eq(option_position, 1), 500 * avatar0Height / avatar0Width, 250 * avatar0Height / avatar0Width + 60)) + option_y_offset"
+      ],
+      "minSize": "option_size",
+      "maxSize": "option_size",
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 5,
+      "angle": "option_rotate",
+      "origin": "CENTER",
+      "align": "RIGHT"
+    },
+    {
+      "text": "$option[message]",
+      "when": "and(gte(option_position, 3), eq(option_align, 0))",
+      "area": [
+        "10 + option_x_offset",
+        "if(eq(option_position, 3), 0, 500 * avatar0Height / avatar0Width) + option_y_offset",
+        "490 + option_x_offset",
+        "if(eq(option_position, 3), 120, 500 * avatar0Height / avatar0Width + 120) + option_y_offset"
+      ],
+      "minSize": "option_size",
+      "maxSize": "option_size",
+      "font": "MiSans",
+      "color": "#000000",
+      "angle": "option_rotate",
+      "origin": "CENTER",
+      "align": "LEFT"
+    },
+    {
+      "text": "$option[message]",
+      "when": "and(gte(option_position, 3), eq(option_align, 1))",
+      "area": [
+        "10 + option_x_offset",
+        "if(eq(option_position, 3), 0, 500 * avatar0Height / avatar0Width) + option_y_offset",
+        "490 + option_x_offset",
+        "if(eq(option_position, 3), 120, 500 * avatar0Height / avatar0Width + 120) + option_y_offset"
+      ],
+      "minSize": "option_size",
+      "maxSize": "option_size",
+      "font": "MiSans",
+      "color": "#000000",
+      "angle": "option_rotate",
+      "origin": "CENTER",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[message]",
+      "when": "and(gte(option_position, 3), eq(option_align, 2))",
+      "area": [
+        "10 + option_x_offset",
+        "if(eq(option_position, 3), 0, 500 * avatar0Height / avatar0Width) + option_y_offset",
+        "490 + option_x_offset",
+        "if(eq(option_position, 3), 120, 500 * avatar0Height / avatar0Width + 120) + option_y_offset"
+      ],
+      "minSize": "option_size",
+      "maxSize": "option_size",
+      "font": "MiSans",
+      "color": "#000000",
+      "angle": "option_rotate",
+      "origin": "CENTER",
+      "align": "RIGHT"
+    }
+  ],
+  "background": {
+    "size": [
+      500,
+      "500 * avatar0Height / avatar0Width + if(gte(option_position, 3), 120, 0)"
+    ],
+    "color": "#ffffff"
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "message",
+      "label": "文字",
+      "default": "万能表情",
+      "maxLength": 100
+    },
+    {
+      "type": "NUMBER",
+      "key": "size",
+      "label": "字号",
+      "default": 50,
+      "min": 20,
+      "max": 100,
+      "step": 1
+    },
+    {
+      "type": "SELECT",
+      "key": "position",
+      "label": "文字位置",
+      "default": "bottom_outer",
+      "choices": [
+        { "value": "top", "label": "顶部内侧" },
+        { "value": "bottom", "label": "底部内侧" },
+        { "value": "center", "label": "居中" },
+        { "value": "top_outer", "label": "顶部外侧" },
+        { "value": "bottom_outer", "label": "底部外侧" }
+      ]
+    },
+    {
+      "type": "NUMBER",
+      "key": "rotate",
+      "label": "旋转角度",
+      "default": 0,
+      "min": -180,
+      "max": 180,
+      "step": 1
+    },
+    {
+      "type": "SELECT",
+      "key": "align",
+      "label": "对齐",
+      "default": "center",
+      "choices": [
+        { "value": "left", "label": "左对齐" },
+        { "value": "center", "label": "居中" },
+        { "value": "right", "label": "右对齐" }
+      ]
+    },
+    {
+      "type": "NUMBER",
+      "key": "x_offset",
+      "label": "横向偏移",
+      "default": 0,
+      "min": -200,
+      "max": 200,
+      "step": 1
+    },
+    {
+      "type": "NUMBER",
+      "key": "y_offset",
+      "label": "纵向偏移",
+      "default": 0,
+      "min": -200,
+      "max": 200,
+      "step": 1
+    }
+  ],
+  "alias": ["万能表情", "空白表情"]
+}

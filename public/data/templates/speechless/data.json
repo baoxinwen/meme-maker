@@ -1,0 +1,31 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, 500, "500 * avatar0Height / avatar0Width"],
+      "fit": "FILL"
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[无语，和你说不下去]",
+      "area": [10, "500 * avatar0Height / avatar0Width", 490, "500 * avatar0Height / avatar0Width + 180"],
+      "minSize": 20,
+      "maxSize": 45,
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [500, "500 * avatar0Height / avatar0Width + 190"],
+    "color": "#ffffff",
+    "foregroundLayers": [
+      {
+        "asset": "sweat.png",
+        "pos": [300, 120],
+        "size": [80, 80]
+      }
+    ]
+  },
+  "alias": ["无语"]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[ATRI]",
+      "area": [302, 288, 602, 416],
+      "minSize": 30,
+      "maxSize": 120,
+      "font": "MiSans",
+      "color": "#ff00004d",
+      "angle": 4,
+      "origin": "CENTER",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [750, 422],
+    "layers": [
+      {
+        "asset": "yes.png",
+        "when": "eq(option_mode, 0)"
+      },
+      {
+        "asset": "no.png",
+        "when": "eq(option_mode, 1)"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "mode",
+      "label": "模式",
+      "default": "yes",
+      "choices": [
+        { "value": "yes", "label": "YES" },
+        { "value": "no", "label": "NO" }
+      ]
+    }
+  ],
+  "alias": ["亚托莉枕头"]
+}

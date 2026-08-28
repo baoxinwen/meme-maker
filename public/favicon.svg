@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="0.5" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#bg)"/>
+  <!-- 主四角星 -->
+  <path fill="#ffffff" d="M30 14 l4.2 9.8 a8 8 0 0 0 4 4 l9.8 4.2 -9.8 4.2 a8 8 0 0 0 -4 4 l-4.2 9.8 -4.2 -9.8 a8 8 0 0 0 -4 -4 l-9.8 -4.2 9.8 -4.2 a8 8 0 0 0 4 -4 z"/>
+  <!-- 副小星 -->
+  <path fill="#ffffff" opacity="0.9" d="M47 40 l2 4.7 a3.8 3.8 0 0 0 1.9 1.9 l4.7 2 -4.7 2 a3.8 3.8 0 0 0 -1.9 1.9 l-2 4.7 -2 -4.7 a3.8 3.8 0 0 0 -1.9 -1.9 l-4.7 -2 4.7 -2 a3.8 3.8 0 0 0 1.9 -1.9 z"/>
+</svg>

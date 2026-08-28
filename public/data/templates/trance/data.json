@@ -1,0 +1,22 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, "avatar0Width", "avatar0Height"],
+      "filter": [
+        {
+          "type": "AFTERIMAGE",
+          "fraction": 0.1,
+          "opacity": 0.01
+        }
+      ]
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["avatar0Width", "avatar0Height"],
+    "color": "#ffffff00"
+  },
+  "alias": ["恍惚"]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [42, 13, 265, 265],
+      "square": true,
+      "preFitSize": [265, 265],
+      "preRotate": -19,
+      "preRotateMode": "CROP",
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["为什么@我"]
+}

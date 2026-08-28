@@ -1,0 +1,21 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [
+        [88, 47, 80, 80],
+        [88, 47, 80, 80],
+        [88, 45, 80, 80],
+        [88, 45, 80, 80],
+        [88, 47, 80, 80]
+      ],
+      "square": true,
+      "round": true,
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "delay": 80,
+  "alias": ["咖波炖"]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [25, 460, 250, 250],
+      "fit": "CONTAIN"
+    }
+  ],
+  "text": [],
+  "alias": ["别碰"]
+}

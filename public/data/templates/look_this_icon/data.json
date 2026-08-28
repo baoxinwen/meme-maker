@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [599, 403, 515, 515],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[朋友\n先看看这个图标再说话]",
+      "area": [0, 933, 1170, 1143],
+      "minSize": 50,
+      "maxSize": 100,
+      "style": "BOLD"
+    }
+  ],
+  "alias": ["看图标"]
+}

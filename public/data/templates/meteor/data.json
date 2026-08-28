@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我要对象]",
+      "area": [220, 230, 920, 315],
+      "minSize": 20,
+      "maxSize": 80,
+      "color": "#ffffff"
+    }
+  ],
+  "alias": ["流星"]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[美国前五星上将麦克阿瑟]",
+      "when": "and(gte(frameIndex, 0), lt(frameIndex, 22))",
+      "area": [5, 202, 243, 235],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[曾这样评价道]",
+      "when": "and(gte(frameIndex, 24), lt(frameIndex, 46))",
+      "area": [5, 202, 243, 235],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[如果让我去阻止xxx]",
+      "when": "and(gte(frameIndex, 48), lt(frameIndex, 70))",
+      "area": [5, 202, 243, 235],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[那么我宁愿去阻止上帝]",
+      "when": "and(gte(frameIndex, 72), lt(frameIndex, 84))",
+      "area": [5, 202, 243, 235],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 200,
+  "alias": ["麦克阿瑟说"],
+  "previewFrame": 76
+}

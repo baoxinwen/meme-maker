@@ -1,0 +1,25 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, "avatar0Width", "avatar0Height"],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["avatar0Width", "avatar0Height"],
+    "imagePos": [
+      "min(avatar0Width - floor(avatar0Width * imageHeight / (2 * imageWidth)) - 10, floor(avatar0Width * 0.4))",
+      "min(avatar0Height - floor(avatar0Width * imageHeight / (2 * imageWidth)) - 10, floor(avatar0Height * 0.7))"
+    ],
+    "imageSize": [
+      "floor(avatar0Width / 2)",
+      "floor(avatar0Width * imageHeight / (2 * imageWidth))"
+    ],
+    "imageFit": "FILL"
+  },
+  "alias": ["out"]
+}

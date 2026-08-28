@@ -1,0 +1,34 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, 500, "500 * avatar0Height / avatar0Width"],
+      "style": ["GRAY"],
+      "fit": "FILL"
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[救命啊]",
+      "area": [20, "500 * avatar0Height / avatar0Width", 480, "500 * avatar0Height / avatar0Width + 60"],
+      "minSize": 25,
+      "maxSize": 50,
+      "color": "#ffffff",
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[助けて]",
+      "area": [20, "500 * avatar0Height / avatar0Width + 60", 480, "500 * avatar0Height / avatar0Width + 95"],
+      "minSize": 10,
+      "maxSize": 25,
+      "color": "#ffffff",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [500, "500 * avatar0Height / avatar0Width + 100"],
+    "color": "#000000"
+  },
+  "alias": ["入典", "典中典", "黑白草图"]
+}

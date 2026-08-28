@@ -1,0 +1,43 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, "avatar0Width", "avatar0Height"],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[笨蛋]",
+      "area": [
+        "avatar0Width - min(avatar0Width, avatar0Height) * 0.396739",
+        "avatar0Height - min(avatar0Width, avatar0Height) * 0.73913",
+        "avatar0Width - min(avatar0Width, avatar0Height) * 0.179348",
+        "avatar0Height - min(avatar0Width, avatar0Height) * 0.603261"
+      ],
+      "minSize": 15,
+      "maxSize": 60,
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": ["avatar0Width", "avatar0Height"],
+    "color": "#ffffff00",
+    "layers": [
+      {
+        "asset": "gun.png",
+        "pos": [
+          "avatar0Width - min(avatar0Width, avatar0Height)",
+          "avatar0Height - min(avatar0Width, avatar0Height)"
+        ],
+        "size": [
+          "min(avatar0Width, avatar0Height)",
+          "min(avatar0Width, avatar0Height)"
+        ]
+      }
+    ]
+  },
+  "alias": ["体温枪"]
+}

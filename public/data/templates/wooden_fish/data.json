@@ -1,0 +1,15 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [116, 153, 85, 85],
+      "square": true,
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "delay": 100,
+  "alias": ["木鱼"]
+}

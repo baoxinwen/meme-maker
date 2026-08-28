@@ -1,0 +1,38 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$option[date] 晴",
+      "area": [30, 341, 470, 391],
+      "minSize": 25,
+      "maxSize": 45
+    },
+    {
+      "text": "$txt1[群友不发涩图]",
+      "area": [30, 391, 470, 471],
+      "minSize": 20,
+      "maxSize": 45
+    },
+    {
+      "text": "这个仇我先记下了",
+      "area": [30, 471, 470, 526],
+      "minSize": 25,
+      "maxSize": 45
+    }
+  ],
+  "background": {
+    "size": [500, 536],
+    "color": "#ffffff"
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "date",
+      "label": "日期",
+      "default": "2026年07月16日",
+      "maxLength": 20
+    }
+  ],
+  "alias": ["记仇"]
+}

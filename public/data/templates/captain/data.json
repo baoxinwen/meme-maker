@@ -1,0 +1,25 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "USER",
+      "input": 0,
+      "pos": [350, 35, 250, 350],
+      "fit": "CONTAIN"
+    },
+    {
+      "type": "USER",
+      "input": 1,
+      "pos": [350, 475, 250, 350],
+      "fit": "CONTAIN"
+    },
+    {
+      "type": "USER",
+      "input": 1,
+      "pos": [350, 915, 250, 350],
+      "fit": "CONTAIN"
+    }
+  ],
+  "text": [],
+  "alias": ["舰长"]
+}

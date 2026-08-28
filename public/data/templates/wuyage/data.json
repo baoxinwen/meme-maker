@@ -1,0 +1,45 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[哟 云崽机器人]",
+      "when": "and(gte(frameIndex, 8), lt(frameIndex, 32))",
+      "area": [5, 158, 345, 191],
+      "minSize": 12,
+      "maxSize": 18,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[今天掉线了没]",
+      "when": "and(gte(frameIndex, 35), lt(frameIndex, 58))",
+      "area": [5, 158, 345, 191],
+      "minSize": 12,
+      "maxSize": 18,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[来给他弹个版本过低]",
+      "when": "and(gte(frameIndex, 60), lt(frameIndex, 85))",
+      "area": [5, 158, 345, 191],
+      "minSize": 12,
+      "maxSize": 18,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 60,
+  "alias": ["乌鸦哥"],
+  "previewFrame": 70
+}

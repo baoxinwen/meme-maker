@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我的意见如下]",
+      "area": [37, 660, 487, 1070],
+      "minSize": 50,
+      "maxSize": 500,
+      "style": "BOLD"
+    }
+  ],
+  "alias": ["我的意见如下", "我的意见是"]
+}

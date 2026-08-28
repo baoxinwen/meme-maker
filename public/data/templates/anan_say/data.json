@@ -1,0 +1,56 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[吾辈很开心]",
+      "area": [105, 445, 412, 625],
+      "minSize": 20,
+      "maxSize": 60,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [541, 648],
+    "layers": [
+      {
+        "asset": "angry.png",
+        "when": "eq(option_expression, 0)"
+      },
+      {
+        "asset": "black.png",
+        "when": "eq(option_expression, 1)"
+      },
+      {
+        "asset": "happy.png",
+        "when": "eq(option_expression, 2)"
+      },
+      {
+        "asset": "shy.png",
+        "when": "eq(option_expression, 3)"
+      },
+      {
+        "asset": "speechless.png",
+        "when": "eq(option_expression, 4)"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "expression",
+      "label": "表情",
+      "default": "happy",
+      "choices": [
+        { "value": "angry", "label": "生气" },
+        { "value": "black", "label": "黑脸" },
+        { "value": "happy", "label": "开心" },
+        { "value": "shy", "label": "害羞" },
+        { "value": "speechless", "label": "无语" }
+      ]
+    }
+  ],
+  "alias": ["安安说"]
+}

@@ -1,0 +1,233 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        0,
+        "min(avatar0Width, 500)",
+        "avatar0Height * min(avatar0Width, 500) / avatar0Width"
+      ],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "min(avatar0Width, 500)",
+      "avatar0Height * min(avatar0Width, 500) / avatar0Width"
+    ],
+    "color": "#ffffff00",
+    "length": 17,
+    "layers": [
+      {
+        "asset": "00.png",
+        "when": "eq(frameIndex, 0)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "01.png",
+        "when": "eq(frameIndex, 1)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "02.png",
+        "when": "eq(frameIndex, 2)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "03.png",
+        "when": "eq(frameIndex, 3)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "04.png",
+        "when": "eq(frameIndex, 4)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "05.png",
+        "when": "eq(frameIndex, 5)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "06.png",
+        "when": "eq(frameIndex, 6)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "07.png",
+        "when": "eq(frameIndex, 7)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "08.png",
+        "when": "eq(frameIndex, 8)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "09.png",
+        "when": "eq(frameIndex, 9)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "10.png",
+        "when": "eq(frameIndex, 10)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "11.png",
+        "when": "eq(frameIndex, 11)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "12.png",
+        "when": "eq(frameIndex, 12)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "13.png",
+        "when": "eq(frameIndex, 13)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "14.png",
+        "when": "eq(frameIndex, 14)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "15.png",
+        "when": "eq(frameIndex, 15)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      },
+      {
+        "asset": "16.png",
+        "when": "eq(frameIndex, 16)",
+        "pos": [
+          "min(avatar0Width, 500) - avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 3"
+        ],
+        "size": [
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5",
+          "avatar0Height * min(avatar0Width, 500) / avatar0Width / 1.5"
+        ]
+      }
+    ]
+  },
+  "delay": 70,
+  "alias": ["遥控", "控制"]
+}

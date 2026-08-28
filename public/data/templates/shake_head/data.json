@@ -1,0 +1,39 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        ["avatar0Width * -0.100000", "avatar0Height * -0.200000", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.130902", "avatar0Height * -0.195106", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.158779", "avatar0Height * -0.180902", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.180902", "avatar0Height * -0.158779", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.195106", "avatar0Height * -0.130902", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.200000", "avatar0Height * -0.100000", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.195106", "avatar0Height * -0.069098", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.180902", "avatar0Height * -0.041221", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.158779", "avatar0Height * -0.019098", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.130902", "avatar0Height * -0.004894", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.100000", "avatar0Height * 0.000000", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.069098", "avatar0Height * -0.004894", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.041221", "avatar0Height * -0.019098", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.019098", "avatar0Height * -0.041221", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.004894", "avatar0Height * -0.069098", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * 0.000000", "avatar0Height * -0.100000", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.004894", "avatar0Height * -0.130902", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.019098", "avatar0Height * -0.158779", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.041221", "avatar0Height * -0.180902", "avatar0Width", "avatar0Height"],
+        ["avatar0Width * -0.069098", "avatar0Height * -0.195106", "avatar0Width", "avatar0Height"]
+      ],
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["avatar0Width * 0.8", "avatar0Height * 0.8"],
+    "color": "#ffffff00",
+    "length": 20
+  },
+  "delay": 20,
+  "alias": ["晃脑"]
+}

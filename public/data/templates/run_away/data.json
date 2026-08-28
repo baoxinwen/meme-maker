@@ -1,0 +1,26 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        0,
+        "if(gt(avatar0Width, avatar0Height), round(432 * avatar0Width / avatar0Height), 432)",
+        "if(gt(avatar0Width, avatar0Height), 432, round(432 * avatar0Height / avatar0Width))"
+      ],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "if(gt(avatar0Width, avatar0Height), round(432 * avatar0Width / avatar0Height), 432)",
+      "if(gt(avatar0Width, avatar0Height), 432, round(432 * avatar0Height / avatar0Width))"
+    ],
+    "imagePos": ["width - imageWidth", "height - imageHeight"]
+  },
+  "delay": 30,
+  "alias": ["快逃"]
+}

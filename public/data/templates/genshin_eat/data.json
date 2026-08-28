@@ -1,0 +1,439 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [106, 245, 44, 44],
+        [115, 224, 44, 44],
+        [116, 205, 44, 44],
+        [115, 198, 44, 44],
+        [120, 217, 44, 33],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44],
+        [0, 0, 44, 44]
+      ],
+      "preFitSize": [44, 44],
+      "fit": "FILL",
+      "round": true,
+      "opacity": [0, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0]
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [350, 350],
+    "length": 16,
+    "layers": [
+      {
+        "asset": "hutao-00.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 0))"
+      },
+      {
+        "asset": "hutao-01.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 1))"
+      },
+      {
+        "asset": "hutao-02.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 2))"
+      },
+      {
+        "asset": "hutao-03.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 3))"
+      },
+      {
+        "asset": "hutao-04.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 4))"
+      },
+      {
+        "asset": "hutao-05.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 5))"
+      },
+      {
+        "asset": "hutao-06.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 6))"
+      },
+      {
+        "asset": "hutao-07.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 7))"
+      },
+      {
+        "asset": "hutao-08.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 8))"
+      },
+      {
+        "asset": "hutao-09.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 9))"
+      },
+      {
+        "asset": "hutao-10.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 10))"
+      },
+      {
+        "asset": "hutao-11.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 11))"
+      },
+      {
+        "asset": "hutao-12.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 12))"
+      },
+      {
+        "asset": "hutao-13.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 13))"
+      },
+      {
+        "asset": "hutao-14.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 14))"
+      },
+      {
+        "asset": "hutao-15.png",
+        "when": "and(eq(option_character, 0), eq(frameIndex, 15))"
+      },
+      {
+        "asset": "keqing-00.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 0))"
+      },
+      {
+        "asset": "keqing-01.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 1))"
+      },
+      {
+        "asset": "keqing-02.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 2))"
+      },
+      {
+        "asset": "keqing-03.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 3))"
+      },
+      {
+        "asset": "keqing-04.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 4))"
+      },
+      {
+        "asset": "keqing-05.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 5))"
+      },
+      {
+        "asset": "keqing-06.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 6))"
+      },
+      {
+        "asset": "keqing-07.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 7))"
+      },
+      {
+        "asset": "keqing-08.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 8))"
+      },
+      {
+        "asset": "keqing-09.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 9))"
+      },
+      {
+        "asset": "keqing-10.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 10))"
+      },
+      {
+        "asset": "keqing-11.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 11))"
+      },
+      {
+        "asset": "keqing-12.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 12))"
+      },
+      {
+        "asset": "keqing-13.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 13))"
+      },
+      {
+        "asset": "keqing-14.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 14))"
+      },
+      {
+        "asset": "keqing-15.png",
+        "when": "and(eq(option_character, 1), eq(frameIndex, 15))"
+      },
+      {
+        "asset": "klee-00.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 0))"
+      },
+      {
+        "asset": "klee-01.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 1))"
+      },
+      {
+        "asset": "klee-02.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 2))"
+      },
+      {
+        "asset": "klee-03.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 3))"
+      },
+      {
+        "asset": "klee-04.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 4))"
+      },
+      {
+        "asset": "klee-05.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 5))"
+      },
+      {
+        "asset": "klee-06.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 6))"
+      },
+      {
+        "asset": "klee-07.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 7))"
+      },
+      {
+        "asset": "klee-08.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 8))"
+      },
+      {
+        "asset": "klee-09.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 9))"
+      },
+      {
+        "asset": "klee-10.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 10))"
+      },
+      {
+        "asset": "klee-11.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 11))"
+      },
+      {
+        "asset": "klee-12.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 12))"
+      },
+      {
+        "asset": "klee-13.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 13))"
+      },
+      {
+        "asset": "klee-14.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 14))"
+      },
+      {
+        "asset": "klee-15.png",
+        "when": "and(eq(option_character, 2), eq(frameIndex, 15))"
+      },
+      {
+        "asset": "nilou-00.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 0))"
+      },
+      {
+        "asset": "nilou-01.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 1))"
+      },
+      {
+        "asset": "nilou-02.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 2))"
+      },
+      {
+        "asset": "nilou-03.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 3))"
+      },
+      {
+        "asset": "nilou-04.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 4))"
+      },
+      {
+        "asset": "nilou-05.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 5))"
+      },
+      {
+        "asset": "nilou-06.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 6))"
+      },
+      {
+        "asset": "nilou-07.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 7))"
+      },
+      {
+        "asset": "nilou-08.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 8))"
+      },
+      {
+        "asset": "nilou-09.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 9))"
+      },
+      {
+        "asset": "nilou-10.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 10))"
+      },
+      {
+        "asset": "nilou-11.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 11))"
+      },
+      {
+        "asset": "nilou-12.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 12))"
+      },
+      {
+        "asset": "nilou-13.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 13))"
+      },
+      {
+        "asset": "nilou-14.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 14))"
+      },
+      {
+        "asset": "nilou-15.png",
+        "when": "and(eq(option_character, 3), eq(frameIndex, 15))"
+      },
+      {
+        "asset": "yae_miko-00.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 0))"
+      },
+      {
+        "asset": "yae_miko-01.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 1))"
+      },
+      {
+        "asset": "yae_miko-02.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 2))"
+      },
+      {
+        "asset": "yae_miko-03.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 3))"
+      },
+      {
+        "asset": "yae_miko-04.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 4))"
+      },
+      {
+        "asset": "yae_miko-05.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 5))"
+      },
+      {
+        "asset": "yae_miko-06.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 6))"
+      },
+      {
+        "asset": "yae_miko-07.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 7))"
+      },
+      {
+        "asset": "yae_miko-08.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 8))"
+      },
+      {
+        "asset": "yae_miko-09.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 9))"
+      },
+      {
+        "asset": "yae_miko-10.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 10))"
+      },
+      {
+        "asset": "yae_miko-11.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 11))"
+      },
+      {
+        "asset": "yae_miko-12.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 12))"
+      },
+      {
+        "asset": "yae_miko-13.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 13))"
+      },
+      {
+        "asset": "yae_miko-14.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 14))"
+      },
+      {
+        "asset": "yae_miko-15.png",
+        "when": "and(eq(option_character, 4), eq(frameIndex, 15))"
+      },
+      {
+        "asset": "zhongli-00.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 0))"
+      },
+      {
+        "asset": "zhongli-01.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 1))"
+      },
+      {
+        "asset": "zhongli-02.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 2))"
+      },
+      {
+        "asset": "zhongli-03.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 3))"
+      },
+      {
+        "asset": "zhongli-04.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 4))"
+      },
+      {
+        "asset": "zhongli-05.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 5))"
+      },
+      {
+        "asset": "zhongli-06.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 6))"
+      },
+      {
+        "asset": "zhongli-07.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 7))"
+      },
+      {
+        "asset": "zhongli-08.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 8))"
+      },
+      {
+        "asset": "zhongli-09.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 9))"
+      },
+      {
+        "asset": "zhongli-10.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 10))"
+      },
+      {
+        "asset": "zhongli-11.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 11))"
+      },
+      {
+        "asset": "zhongli-12.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 12))"
+      },
+      {
+        "asset": "zhongli-13.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 13))"
+      },
+      {
+        "asset": "zhongli-14.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 14))"
+      },
+      {
+        "asset": "zhongli-15.png",
+        "when": "and(eq(option_character, 5), eq(frameIndex, 15))"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "character",
+      "label": "角色",
+      "default": "hutao",
+      "choices": [
+        { "value": "hutao", "label": "胡桃" },
+        { "value": "keqing", "label": "刻晴" },
+        { "value": "klee", "label": "可莉" },
+        { "value": "nilou", "label": "妮露" },
+        { "value": "yae_miko", "label": "八重神子" },
+        { "value": "zhongli", "label": "钟离" }
+      ]
+    }
+  ],
+  "delay": 80,
+  "alias": ["原神吃"]
+}

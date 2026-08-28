@@ -1,0 +1,20 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [252, 142, 230, 120],
+      "fit": "CONTAIN",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[我爸]",
+      "area": [195, 372, 490, 462],
+      "minSize": 10,
+      "maxSize": 50
+    }
+  ],
+  "alias": ["我爸爸"]
+}

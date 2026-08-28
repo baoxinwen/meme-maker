@@ -1,0 +1,50 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        0,
+        500,
+        "floor(500 * avatar0Height / avatar0Width / option_ratio)"
+      ],
+      "fit": "FILL"
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[可恶...被人看扁了]",
+      "area": [
+        10,
+        "floor(500 * avatar0Height / avatar0Width / option_ratio)",
+        490,
+        "floor(500 * avatar0Height / avatar0Width / option_ratio) + 80"
+      ],
+      "minSize": 30,
+      "maxSize": 55,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [
+      500,
+      "floor(500 * avatar0Height / avatar0Width / option_ratio) + 80"
+    ],
+    "color": "#ffffff"
+  },
+  "options": [
+    {
+      "type": "NUMBER",
+      "key": "ratio",
+      "label": "压扁比例",
+      "default": 2,
+      "min": 1,
+      "max": 10,
+      "step": 0.5
+    }
+  ],
+  "alias": ["看扁"]
+}

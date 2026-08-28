@@ -1,0 +1,44 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [50, 110, 500, "500 * avatar0Height / avatar0Width"],
+      "fit": "FILL"
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[请问你们看到她了吗？]",
+      "area": [20, 20, 580, 110],
+      "minSize": 40,
+      "maxSize": 70,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    },
+    {
+      "text": "非常可爱！简直就是小天使",
+      "area": [10, "500 * avatar0Height / avatar0Width + 115", 590, "500 * avatar0Height / avatar0Width + 190"],
+      "minSize": 30,
+      "maxSize": 48,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    },
+    {
+      "text": "她没失踪也没怎么样  我只是觉得你们都该看一下",
+      "area": [20, "500 * avatar0Height / avatar0Width + 175", 580, "500 * avatar0Height / avatar0Width + 220"],
+      "minSize": 18,
+      "maxSize": 26,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [600, "500 * avatar0Height / avatar0Width + 230"],
+    "color": "#ffffff"
+  },
+  "alias": ["小天使"]
+}

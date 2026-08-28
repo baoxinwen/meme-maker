@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [37, 291, "avatar0Width", "avatar0Height"],
+      "preFitSize": [60, 75],
+      "preRotate": -16,
+      "preRotateMode": "EXPAND",
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["警察"]
+}

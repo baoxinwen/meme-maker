@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[V我50]",
+      "area": [190, 675, 640, 930],
+      "minSize": 25,
+      "maxSize": 60,
+      "color": "#6f5f5f"
+    }
+  ],
+  "alias": ["布洛妮娅举牌", "大鸭鸭举牌"]
+}

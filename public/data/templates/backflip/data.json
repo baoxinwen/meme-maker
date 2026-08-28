@@ -1,0 +1,236 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.000000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.474074074074 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.829629629630 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.066666666667 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.185185185185 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.185185185185 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.066666666667 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.829629629630 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.474074074074 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.000000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.474074074074 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.829629629630 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.066666666667 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.185185185185 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.185185185185 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.066666666667 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.829629629630 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.474074074074 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 0.000000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.066666666667 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.200000000000 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ],
+        [
+          "floor(floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3) / 2) - avatar0Width / 2",
+          "(floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2) - floor(avatar0Height / 2) - avatar0Height / 2) - 1.066666666667 * avatar0Height",
+          "avatar0Width",
+          "avatar0Height"
+        ]
+      ],
+      "angle": [
+        0,
+        10,
+        20,
+        30,
+        40,
+        40,
+        30,
+        20,
+        10,
+        0,
+        -10,
+        -20,
+        -30,
+        -40,
+        -40,
+        -30,
+        -20,
+        -10,
+        0,
+        0,
+        20,
+        60,
+        100,
+        140,
+        180,
+        220,
+        260,
+        300,
+        340,
+        0
+      ],
+      "origin": "CENTER"
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "floor(sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) * 1.3)",
+      "floor(avatar0Height * 1.8 + sqrt(avatar0Width ^ 2 + avatar0Height ^ 2) / 2)"
+    ],
+    "color": "#ffffff",
+    "length": 30
+  },
+  "delay": 50,
+  "alias": [
+    "后空翻"
+  ]
+}

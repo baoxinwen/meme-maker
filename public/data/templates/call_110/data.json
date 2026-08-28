@@ -1,0 +1,40 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "USER",
+      "input": 0,
+      "square": true,
+      "pos": [50, 200, 250, 250],
+      "fit": "FILL"
+    },
+    {
+      "type": "USER",
+      "input": 0,
+      "square": true,
+      "pos": [325, 200, 250, 250],
+      "fit": "FILL"
+    },
+    {
+      "type": "USER",
+      "input": 1,
+      "square": true,
+      "pos": [600, 200, 250, 250],
+      "fit": "FILL"
+    }
+  ],
+  "text": [
+    {
+      "text": "遇到困难请拨打",
+      "area": [0, 0, 900, 200],
+      "minSize": 100,
+      "maxSize": 100,
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [900, 500],
+    "color": "#ffffff"
+  },
+  "alias": ["遇到困难请拨打"]
+}

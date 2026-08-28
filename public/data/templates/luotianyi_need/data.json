@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [43, 146, 195, 195],
+      "fit": "CONTAIN",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [],
+  "alias": ["洛天依要", "天依要"]
+}

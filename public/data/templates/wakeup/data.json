@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[好]",
+      "area": [310, 270, 460, 380],
+      "minSize": 50,
+      "maxSize": 90,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[好起来了]",
+      "area": [50, 610, 670, 720],
+      "minSize": 70,
+      "maxSize": 110,
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["好起来了"]
+}

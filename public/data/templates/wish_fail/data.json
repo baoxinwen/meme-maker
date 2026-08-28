@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我要对象]",
+      "area": [70, 305, 320, 380],
+      "minSize": 20,
+      "maxSize": 80
+    }
+  ],
+  "alias": ["许愿失败"]
+}

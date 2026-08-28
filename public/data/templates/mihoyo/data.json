@@ -1,0 +1,19 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, 500, 500],
+      "square": true,
+      "preFitSize": [500, 500],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [500, 500],
+    "round": 100
+  },
+  "alias": ["米哈游"]
+}

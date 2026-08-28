@@ -1,0 +1,100 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[汐汐]",
+      "area": [
+        0,
+        "256 - if(eq(option_number, 0), 55, if(eq(option_number, 1), 43, if(eq(option_number, 2), 50, if(eq(option_number, 3), 36, if(eq(option_number, 4), 40, if(eq(option_number, 5), 33, if(eq(option_number, 6), 36, if(eq(option_number, 7), 38, if(eq(option_number, 8), 33, if(eq(option_number, 9), 46, if(eq(option_number, 10), 26, if(eq(option_number, 11), 33, 28))))))))))))",
+        218,
+        256
+      ],
+      "minSize": 15,
+      "maxSize": 50,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [218, 256],
+    "layers": [
+      {
+        "asset": "01.png",
+        "when": "eq(option_number, 0)"
+      },
+      {
+        "asset": "02.png",
+        "when": "eq(option_number, 1)"
+      },
+      {
+        "asset": "03.png",
+        "when": "eq(option_number, 2)"
+      },
+      {
+        "asset": "04.png",
+        "when": "eq(option_number, 3)"
+      },
+      {
+        "asset": "05.png",
+        "when": "eq(option_number, 4)"
+      },
+      {
+        "asset": "06.png",
+        "when": "eq(option_number, 5)"
+      },
+      {
+        "asset": "07.png",
+        "when": "eq(option_number, 6)"
+      },
+      {
+        "asset": "08.png",
+        "when": "eq(option_number, 7)"
+      },
+      {
+        "asset": "09.png",
+        "when": "eq(option_number, 8)"
+      },
+      {
+        "asset": "10.png",
+        "when": "eq(option_number, 9)"
+      },
+      {
+        "asset": "11.png",
+        "when": "eq(option_number, 10)"
+      },
+      {
+        "asset": "12.png",
+        "when": "eq(option_number, 11)"
+      },
+      {
+        "asset": "13.png",
+        "when": "eq(option_number, 12)"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "number",
+      "label": "表情",
+      "default": "1",
+      "choices": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" },
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" },
+        { "value": "5", "label": "5" },
+        { "value": "6", "label": "6" },
+        { "value": "7", "label": "7" },
+        { "value": "8", "label": "8" },
+        { "value": "9", "label": "9" },
+        { "value": "10", "label": "10" },
+        { "value": "11", "label": "11" },
+        { "value": "12", "label": "12" },
+        { "value": "13", "label": "13" }
+      ]
+    }
+  ],
+  "alias": ["汐汐", "今汐"]
+}

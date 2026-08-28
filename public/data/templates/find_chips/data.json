@@ -1,0 +1,35 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我们要飞向何方]",
+      "area": [405, 54, 530, 130],
+      "minSize": 12,
+      "maxSize": 30,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[我打算待会去码头整点薯条]",
+      "area": [570, 62, 667, 160],
+      "minSize": 12,
+      "maxSize": 30,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[我说的是归根结底，活着是为了什么]",
+      "area": [65, 400, 325, 463],
+      "minSize": 12,
+      "maxSize": 30,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[为了待会去码头整点薯条]",
+      "area": [430, 400, 630, 470],
+      "minSize": 12,
+      "maxSize": 30,
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["整点薯条"]
+}

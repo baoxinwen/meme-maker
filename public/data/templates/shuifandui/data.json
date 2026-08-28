@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我话说完了]",
+      "when": "and(gte(frameIndex, 3), lt(frameIndex, 14))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[谁赞成]",
+      "when": "and(gte(frameIndex, 21), lt(frameIndex, 26))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[谁反对]",
+      "when": "and(gte(frameIndex, 31), lt(frameIndex, 38))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[我反对]",
+      "when": "and(gte(frameIndex, 40), lt(frameIndex, 45))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 125,
+  "alias": ["谁反对"],
+  "previewFrame": 34
+}

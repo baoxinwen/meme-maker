@@ -1,0 +1,165 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 0)",
+      "area": [10, 10, 290, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [300, 200],
+      "deform": [[144,388],[420,322],[463,500],[187,566]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 1)",
+      "area": [10, 10, 290, 240],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [300, 250],
+      "deform": [[-46,33],[266,-50],[302,193],[0,264]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 2)",
+      "area": [10, 10, 290, 140],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [300, 150],
+      "deform": [[106,351],[392,351],[382,500],[118,500]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 3)",
+      "area": [10, 10, 240, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [250, 200],
+      "deform": [[276,-6],[533,43],[501,233],[245,184]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 4)",
+      "area": [10, 10, 490, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [500, 200],
+      "deform": [[0,0],[492,0],[462,198],[25,198]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 5)",
+      "area": [10, 10, 340, 140],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [350, 150],
+      "deform": [[74,411],[419,359],[438,502],[105,552]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 6)",
+      "area": [10, 10, 260, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [270, 200],
+      "deform": [[262,-9],[536,40],[501,236],[231,183]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 7)",
+      "area": [10, 10, 340, 140],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [350, 150],
+      "deform": [[64,384],[409,340],[422,493],[98,537]]
+    }
+  ],
+  "background": {
+    "size": [500, 500],
+    "layers": [
+      {
+        "asset": "01.png",
+        "when": "eq(option_number, 0)"
+      },
+      {
+        "asset": "02.png",
+        "when": "eq(option_number, 1)"
+      },
+      {
+        "asset": "03.png",
+        "when": "eq(option_number, 2)"
+      },
+      {
+        "asset": "04.png",
+        "when": "eq(option_number, 3)"
+      },
+      {
+        "asset": "05.png",
+        "when": "eq(option_number, 4)"
+      },
+      {
+        "asset": "06.png",
+        "when": "eq(option_number, 5)"
+      },
+      {
+        "asset": "07.png",
+        "when": "eq(option_number, 6)"
+      },
+      {
+        "asset": "08.png",
+        "when": "eq(option_number, 7)"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "message",
+      "label": "文字",
+      "default": "要好好爱莉哦~",
+      "maxLength": 30
+    },
+    {
+      "type": "SELECT",
+      "key": "number",
+      "label": "图片",
+      "default": "1",
+      "choices": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" },
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" },
+        { "value": "5", "label": "5" },
+        { "value": "6", "label": "6" },
+        { "value": "7", "label": "7" },
+        { "value": "8", "label": "8" }
+      ]
+    }
+  ],
+  "alias": ["爱莉举牌"]
+}

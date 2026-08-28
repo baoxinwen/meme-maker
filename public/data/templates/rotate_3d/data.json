@@ -1,0 +1,60 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        "floor((canvasWidth - avatar0Width) / 2)",
+        "floor((canvasHeight - avatar0Height) / 2)",
+        "avatar0Width",
+        "avatar0Height"
+      ],
+      "fit": "FILL",
+      "projection": {
+        "type": "ROTATE_Y",
+        "angle": [
+          0,
+          12,
+          24,
+          36,
+          48,
+          60,
+          72,
+          84,
+          96,
+          108,
+          120,
+          132,
+          144,
+          156,
+          168,
+          180,
+          192,
+          204,
+          216,
+          228,
+          240,
+          252,
+          264,
+          276,
+          288,
+          300,
+          312,
+          324,
+          336,
+          348
+        ],
+        "fov": 45
+      }
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["round(avatar0Width * 1.2)", "round(avatar0Height * 1.5)"],
+    "color": "#ffffff00",
+    "length": 30
+  },
+  "previewFrame": 3,
+  "delay": 70,
+  "alias": ["三维旋转"]
+}

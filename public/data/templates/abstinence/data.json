@@ -1,0 +1,52 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [80, 380, 270, 360],
+      "fit": "CONTAIN"
+    }
+  ],
+  "text": [
+    {
+      "text": "戒导人：$option[name]",
+      "area": [150, 650, 665, 745],
+      "minSize": 10,
+      "maxSize": 20,
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[date]",
+      "area": [150, 745, 665, 810],
+      "minSize": 16,
+      "maxSize": 20,
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [675, 918],
+    "foregroundLayers": [
+      {
+        "asset": "stamp.png",
+        "pos": [310, 660]
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "name",
+      "label": "戒导人",
+      "default": "用户",
+      "maxLength": 30
+    },
+    {
+      "type": "TEXT",
+      "key": "date",
+      "label": "日期",
+      "default": "2026 年 7 月 16 日",
+      "maxLength": 30
+    }
+  ],
+  "alias": ["戒导"]
+}

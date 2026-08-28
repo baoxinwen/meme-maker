@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [190, 265, 290, 410],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[走，跟我去二次元吧]",
+      "area": [30, 720, 610, 810],
+      "minSize": 25,
+      "maxSize": 50,
+      "color": "#ffffff"
+    }
+  ],
+  "alias": ["二次元入口"]
+}

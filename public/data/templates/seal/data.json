@@ -1,0 +1,19 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, "avatar0Width", "avatar0Height"],
+      "square": true,
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["avatar0Width", "avatar0Height"],
+    "imageSize": ["width", "height"],
+    "imageFit": "FILL"
+  },
+  "alias": ["源石封印"]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [132, 36, 63, 63],
+      "square": true,
+      "fit": "FILL",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[一起玩$to吧！]",
+      "area": [10, 140, 190, 190],
+      "minSize": 10,
+      "maxSize": 50,
+      "style": "BOLD"
+    }
+  ],
+  "alias": ["一起"]
+}

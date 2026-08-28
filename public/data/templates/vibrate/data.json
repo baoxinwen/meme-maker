@@ -1,0 +1,23 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [
+        [0, 0, "avatar0Width", "avatar0Height"],
+        ["avatar0Width / 25", "avatar0Height / 25", "avatar0Width", "avatar0Height"],
+        ["avatar0Width / 50", "avatar0Height / 50", "avatar0Width", "avatar0Height"],
+        [0, "avatar0Height / 25", "avatar0Width", "avatar0Height"],
+        ["avatar0Width / 25", 0, "avatar0Width", "avatar0Height"]
+      ]
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["avatar0Width + avatar0Width / 25", "avatar0Height + avatar0Height / 25"],
+    "color": "#ffffff",
+    "length": 5
+  },
+  "delay": 50,
+  "alias": ["震动"]
+}

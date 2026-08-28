@@ -1,0 +1,17 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[intel]",
+      "area": [240, 340, 680, 580],
+      "minSize": 80,
+      "maxSize": 180,
+      "font": "MiSans",
+      "style": "BOLD",
+      "color": "#ffffff",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["inside"]
+}

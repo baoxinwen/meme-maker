@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, 240, "floor(240 * avatar0Height / avatar0Width)"],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [240, "floor(240 * avatar0Height / avatar0Width)"]
+  },
+  "alias": ["添乱", "给社会添乱"]
+}

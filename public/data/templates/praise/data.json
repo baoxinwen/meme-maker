@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[好，不愧是顶尖运营]",
+      "area": [10, 235, 417, 295],
+      "minSize": 20,
+      "maxSize": 40,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["表扬"]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[外界都说我们压力大]",
+      "when": "and(gte(frameIndex, 0), lt(frameIndex, 16))",
+      "area": [5, 148, 295, 181],
+      "minSize": 12,
+      "maxSize": 21,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[我觉得吧压力也没有那么大]",
+      "when": "and(gte(frameIndex, 21), lt(frameIndex, 47))",
+      "area": [5, 148, 295, 181],
+      "minSize": 12,
+      "maxSize": 21,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[主要是28岁了还没媳妇儿]",
+      "when": "and(gte(frameIndex, 52), lt(frameIndex, 77))",
+      "area": [5, 148, 295, 181],
+      "minSize": 12,
+      "maxSize": 21,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 125,
+  "alias": ["压力大爷"],
+  "previewFrame": 58
+}

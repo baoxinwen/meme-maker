@@ -1,0 +1,17 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [[105, 178, 245, 245], [105, 178, 245, 245], [105, 178, 245, 245], [105, 178, 245, 245]],
+      "preFitSize": [245, 245],
+      "backgroundColor": "#ffffff",
+      "mask": "mask.png",
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "delay": 60,
+  "alias": ["白子舔"]
+}

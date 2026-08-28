@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [530, 0, 534, 493],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["想什么"]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我发涩图被抓起来了]",
+      "area": [10, 152, 230, 197],
+      "minSize": 15,
+      "maxSize": 35,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["坐牢"]
+}

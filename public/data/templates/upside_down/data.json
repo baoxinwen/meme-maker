@@ -1,0 +1,26 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 80, 500, "500 * avatar0Height / avatar0Width"],
+      "fit": "FILL",
+      "preRotate": 180,
+      "preRotateMode": "CROP"
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[我看你们是反了！]",
+      "area": [20, 0, 480, 80],
+      "minSize": 30,
+      "maxSize": 55,
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [500, "500 * avatar0Height / avatar0Width + 80"],
+    "color": "#ffffff"
+  },
+  "alias": ["反了"]
+}

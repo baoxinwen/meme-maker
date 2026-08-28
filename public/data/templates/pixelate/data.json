@@ -1,0 +1,22 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, "avatar0Width", "avatar0Height"],
+      "filter": [
+        {
+          "type": "PIXELATE",
+          "size": 10
+        }
+      ],
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["avatar0Width", "avatar0Height"],
+    "color": "#ffffff00"
+  },
+  "alias": ["像素化"]
+}

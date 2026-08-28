@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [0, 0, 500, 500],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["禁止", "禁"]
+}

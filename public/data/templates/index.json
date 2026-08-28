@@ -1,0 +1,3126 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "key": "abstinence",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "戒导"
+      ],
+      "description": "戒导"
+    },
+    {
+      "key": "acclaim",
+      "type": "GIF",
+      "length": 23,
+      "alias": [
+        "喝彩",
+        "欢呼"
+      ],
+      "description": "喝彩"
+    },
+    {
+      "key": "acg_entrance",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "二次元入口"
+      ],
+      "description": "二次元入口"
+    },
+    {
+      "key": "add_chaos",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "添乱",
+        "给社会添乱"
+      ],
+      "description": "给社会添乱",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "addiction",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "上瘾",
+        "毒瘾发作"
+      ],
+      "description": "上瘾"
+    },
+    {
+      "key": "alike",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "一样"
+      ],
+      "description": "一样",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "always",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "要我一直"
+      ],
+      "description": "要我一直"
+    },
+    {
+      "key": "always_like",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "我永远喜欢",
+        "永远喜欢"
+      ],
+      "description": "我永远喜欢"
+    },
+    {
+      "key": "anan_say",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "安安说"
+      ],
+      "description": "安安说",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "anti_kidnap",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "防诱拐",
+        "远离"
+      ],
+      "description": "防诱拐"
+    },
+    {
+      "key": "anya_suki",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "阿尼亚喜欢",
+        "阿尼亚"
+      ],
+      "description": "阿尼亚喜欢"
+    },
+    {
+      "key": "applaud",
+      "type": "GIF",
+      "length": 5,
+      "alias": [
+        "鼓掌"
+      ],
+      "description": "鼓掌"
+    },
+    {
+      "key": "arona_throw",
+      "type": "GIF",
+      "length": 16,
+      "alias": [
+        "阿罗娜扔"
+      ],
+      "description": "阿罗娜扔"
+    },
+    {
+      "key": "ascension",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "升天"
+      ],
+      "description": "升天"
+    },
+    {
+      "key": "ask",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "问问"
+      ],
+      "description": "问问"
+    },
+    {
+      "key": "atri_pillow",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "亚托莉枕头"
+      ],
+      "description": "亚托莉枕头",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "ayachi_holdsign",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "宁宁举牌"
+      ],
+      "description": "宁宁举牌"
+    },
+    {
+      "key": "ba_say",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "ba说"
+      ],
+      "description": "ba说",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "back_to_work",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "继续干活",
+        "打工人"
+      ],
+      "description": "继续干活"
+    },
+    {
+      "key": "backflip",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "后空翻"
+      ],
+      "description": "后空翻"
+    },
+    {
+      "key": "bad_news",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "悲报"
+      ],
+      "description": "悲报"
+    },
+    {
+      "key": "bear",
+      "type": "GIF",
+      "length": 20,
+      "alias": [
+        "旋转丢",
+        "扔"
+      ],
+      "description": "旋转丢"
+    },
+    {
+      "key": "beat_head",
+      "type": "GIF",
+      "length": 3,
+      "alias": [
+        "拍头"
+      ],
+      "description": "拍头"
+    },
+    {
+      "key": "beat_up",
+      "type": "GIF",
+      "length": 3,
+      "alias": [
+        "揍"
+      ],
+      "description": "揍",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "bible",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "圣经",
+        "典中典"
+      ],
+      "description": "圣经"
+    },
+    {
+      "key": "bite",
+      "type": "GIF",
+      "length": 16,
+      "alias": [
+        "啃",
+        "咬"
+      ],
+      "description": "啃"
+    },
+    {
+      "key": "blamed_mahiro",
+      "type": "GIF",
+      "length": 24,
+      "alias": [
+        "真寻挨骂"
+      ],
+      "description": "真寻挨骂"
+    },
+    {
+      "key": "blood_pressure",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "高血压"
+      ],
+      "description": "高血压"
+    },
+    {
+      "key": "bocchi",
+      "type": "GIF",
+      "length": 23,
+      "alias": [
+        "波奇",
+        "波奇手稿"
+      ],
+      "description": "波奇"
+    },
+    {
+      "key": "brain",
+      "type": "GIF",
+      "length": 32,
+      "alias": [
+        "大脑升级",
+        "妈妈生的"
+      ],
+      "description": "大脑升级"
+    },
+    {
+      "key": "breast",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "胸",
+        "凶"
+      ],
+      "description": "胸"
+    },
+    {
+      "key": "bronya_holdsign",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "布洛妮娅举牌",
+        "大鸭鸭举牌"
+      ],
+      "description": "布洛妮娅举牌"
+    },
+    {
+      "key": "bubble_tea",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "奶茶"
+      ],
+      "description": "奶茶",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "buckle",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "泉此方",
+        "扣"
+      ],
+      "description": "泉此方"
+    },
+    {
+      "key": "bulge",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "膨胀",
+        "鱼眼",
+        "透镜"
+      ],
+      "description": "膨胀"
+    },
+    {
+      "key": "call_110",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "遇到困难请拨打"
+      ],
+      "description": "遇到困难请拨打",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "capoo_draw",
+      "type": "GIF",
+      "length": 16,
+      "alias": [
+        "咖波画"
+      ],
+      "description": "咖波画"
+    },
+    {
+      "key": "capoo_point",
+      "type": "GIF",
+      "length": 4,
+      "alias": [
+        "咖波指"
+      ],
+      "description": "咖波指"
+    },
+    {
+      "key": "capoo_rip",
+      "type": "GIF",
+      "length": 15,
+      "alias": [
+        "咖波撕"
+      ],
+      "description": "咖波撕"
+    },
+    {
+      "key": "capoo_rub",
+      "type": "GIF",
+      "length": 4,
+      "alias": [
+        "咖波蹭",
+        "蹭"
+      ],
+      "description": "咖波蹭"
+    },
+    {
+      "key": "capoo_say",
+      "type": "GIF",
+      "length": 10,
+      "alias": [
+        "咖波说"
+      ],
+      "description": "咖波说"
+    },
+    {
+      "key": "capoo_stew",
+      "type": "GIF",
+      "length": 5,
+      "alias": [
+        "咖波炖"
+      ],
+      "description": "咖波炖"
+    },
+    {
+      "key": "capoo_strike",
+      "type": "GIF",
+      "length": 7,
+      "alias": [
+        "咖波撞",
+        "咖波头槌"
+      ],
+      "description": "咖波撞"
+    },
+    {
+      "key": "captain",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "舰长"
+      ],
+      "description": "舰长"
+    },
+    {
+      "key": "carte",
+      "type": "GIF",
+      "length": 23,
+      "alias": [
+        "佩可莉姆",
+        "菜单",
+        "单页"
+      ],
+      "description": "佩可莉姆"
+    },
+    {
+      "key": "cast",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "丢"
+      ],
+      "description": "丢"
+    },
+    {
+      "key": "caused_by_this",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "这个引起的"
+      ],
+      "description": "这个引起的"
+    },
+    {
+      "key": "center_symmetry",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "中心对称",
+        "左上对称"
+      ],
+      "description": "中心对称"
+    },
+    {
+      "key": "certificate",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "喜报"
+      ],
+      "description": "喜报"
+    },
+    {
+      "key": "chanshenzi",
+      "type": "GIF",
+      "length": 48,
+      "alias": [
+        "馋身子"
+      ],
+      "description": "馋身子",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "chase_train",
+      "type": "GIF",
+      "length": 60,
+      "alias": [
+        "追列车",
+        "追火车"
+      ],
+      "description": "追列车"
+    },
+    {
+      "key": "china_flag",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "国旗"
+      ],
+      "description": "国旗"
+    },
+    {
+      "key": "chino_throw",
+      "type": "GIF",
+      "length": 21,
+      "alias": [
+        "智乃扔",
+        "智乃抛"
+      ],
+      "description": "智乃扔"
+    },
+    {
+      "key": "clauvio_twist",
+      "type": "GIF",
+      "length": 40,
+      "alias": [
+        "鼠鼠搓"
+      ],
+      "description": "鼠鼠搓"
+    },
+    {
+      "key": "clown_mask",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "小丑面具"
+      ],
+      "description": "小丑面具",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "clown",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "小丑"
+      ],
+      "description": "小丑",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "confuse",
+      "type": "GIF",
+      "length": 100,
+      "alias": [
+        "迷惑"
+      ],
+      "description": "迷惑",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "control",
+      "type": "GIF",
+      "length": 17,
+      "alias": [
+        "遥控",
+        "开关"
+      ],
+      "description": "遥控"
+    },
+    {
+      "key": "coupon",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "陪睡"
+      ],
+      "description": "陪睡"
+    },
+    {
+      "key": "cover_face",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "挡"
+      ],
+      "description": "挡"
+    },
+    {
+      "key": "crawl",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "爬"
+      ],
+      "description": "爬"
+    },
+    {
+      "key": "cum",
+      "type": "GIF",
+      "length": 13,
+      "alias": [
+        "射"
+      ],
+      "description": "射"
+    },
+    {
+      "key": "cyan",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "群青"
+      ],
+      "description": "群青",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "daynight",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "白天黑夜",
+        "白天晚上"
+      ],
+      "description": "白天黑夜",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "decent_kiss",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "抱歉"
+      ],
+      "description": "抱歉"
+    },
+    {
+      "key": "dianzhongdian",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "入典",
+        "典中典",
+        "黑白草图"
+      ],
+      "description": "入典"
+    },
+    {
+      "key": "deer",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "鹿乃子",
+        "🦌"
+      ],
+      "description": "鹿乃子"
+    },
+    {
+      "key": "deer-show",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "虎视子",
+        "展示"
+      ],
+      "description": "虎视子"
+    },
+    {
+      "key": "dinosaur",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "恐龙",
+        "小恐龙"
+      ],
+      "description": "恐龙"
+    },
+    {
+      "key": "distracted",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "注意力"
+      ],
+      "description": "注意力"
+    },
+    {
+      "key": "divorce",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "离婚申请",
+        "离婚协议",
+        "离婚"
+      ],
+      "description": "离婚申请"
+    },
+    {
+      "key": "dog_dislike",
+      "type": "GIF",
+      "length": 34,
+      "alias": [
+        "狗都不玩"
+      ],
+      "description": "狗都不玩"
+    },
+    {
+      "key": "dog_of_vtb",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "管人痴"
+      ],
+      "description": "管人痴"
+    },
+    {
+      "key": "dont_go_near",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "不要靠近"
+      ],
+      "description": "不要靠近"
+    },
+    {
+      "key": "dont_press",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "不要按"
+      ],
+      "description": "不要按"
+    },
+    {
+      "key": "dont_touch",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "别碰"
+      ],
+      "description": "别碰"
+    },
+    {
+      "key": "doraemon_say",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "哆啦A梦说"
+      ],
+      "description": "哆啦A梦说"
+    },
+    {
+      "key": "eat",
+      "type": "GIF",
+      "length": 3,
+      "alias": [
+        "吃"
+      ],
+      "description": "吃"
+    },
+    {
+      "key": "eat_earth",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "啃地球"
+      ],
+      "description": "啃地球"
+    },
+    {
+      "key": "elysia_holdsign",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "爱莉举牌"
+      ],
+      "description": "爱莉举牌",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "emperor_dragon",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "皇帝龙图"
+      ],
+      "description": "皇帝龙图"
+    },
+    {
+      "key": "erised_mirror",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "意若思镜"
+      ],
+      "description": "意若思镜"
+    },
+    {
+      "key": "fanatic",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "狂爱",
+        "狂粉"
+      ],
+      "description": "狂爱"
+    },
+    {
+      "key": "fantasy_time",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "幻想时间"
+      ],
+      "description": "幻想时间"
+    },
+    {
+      "key": "father_work",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "我爸爸"
+      ],
+      "description": "我爸爸"
+    },
+    {
+      "key": "fencing",
+      "type": "GIF",
+      "length": 19,
+      "alias": [
+        "击剑",
+        "🤺"
+      ],
+      "description": "击剑"
+    },
+    {
+      "key": "fight_with_sunuo",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "我打宿傩",
+        "我打宿傩吗"
+      ],
+      "description": "我打宿傩"
+    },
+    {
+      "key": "fill_head",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "满脑子"
+      ],
+      "description": "满脑子"
+    },
+    {
+      "key": "find_chips",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "整点薯条"
+      ],
+      "description": "整点薯条"
+    },
+    {
+      "key": "firefly_holdsign",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "流萤举牌"
+      ],
+      "description": "流萤举牌",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "flash_blind",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "闪瞎"
+      ],
+      "description": "闪瞎"
+    },
+    {
+      "key": "fogging",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "回南天",
+        "水雾"
+      ],
+      "description": "回南天"
+    },
+    {
+      "key": "follow",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "关注"
+      ],
+      "description": "关注"
+    },
+    {
+      "key": "forbid",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "禁止",
+        "禁"
+      ],
+      "description": "禁止"
+    },
+    {
+      "key": "frieren_take",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "芙莉莲",
+        "拿"
+      ],
+      "description": "芙莉莲"
+    },
+    {
+      "key": "garbage",
+      "type": "GIF",
+      "length": 25,
+      "alias": [
+        "垃圾桶",
+        "垃圾",
+        "探头"
+      ],
+      "description": "垃圾桶"
+    },
+    {
+      "key": "genshin_eat",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "原神吃"
+      ],
+      "description": "原神吃",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "genshin_start",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "启动"
+      ],
+      "description": "启动"
+    },
+    {
+      "key": "gluing",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "打胶"
+      ],
+      "description": "打胶"
+    },
+    {
+      "key": "good_news",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "喜报"
+      ],
+      "description": "喜报"
+    },
+    {
+      "key": "gorilla_throw",
+      "type": "GIF",
+      "length": 42,
+      "alias": [
+        "猩猩扔"
+      ],
+      "description": "猩猩扔"
+    },
+    {
+      "key": "grab",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "抓"
+      ],
+      "description": "抓"
+    },
+    {
+      "key": "grab_both_hands",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "双手抓"
+      ],
+      "description": "双手抓"
+    },
+    {
+      "key": "gun",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "手枪"
+      ],
+      "description": "手枪",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "hammer",
+      "type": "GIF",
+      "length": 7,
+      "alias": [
+        "锤"
+      ],
+      "description": "锤"
+    },
+    {
+      "key": "haruhi_raise",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "凉宫春日举"
+      ],
+      "description": "凉宫春日举"
+    },
+    {
+      "key": "head_butt",
+      "type": "GIF",
+      "length": 58,
+      "alias": [
+        "顶"
+      ],
+      "description": "顶"
+    },
+    {
+      "key": "high_eq",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "高低情商",
+        "低高情商"
+      ],
+      "description": "高低情商"
+    },
+    {
+      "key": "hit_screen",
+      "type": "GIF",
+      "length": 29,
+      "alias": [
+        "打穿",
+        "打穿屏幕",
+        "击穿",
+        "惊吓"
+      ],
+      "description": "打穿"
+    },
+    {
+      "key": "hold",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "举牌",
+        "应援"
+      ],
+      "description": "举牌"
+    },
+    {
+      "key": "hold_grudge",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "记仇"
+      ],
+      "description": "记仇"
+    },
+    {
+      "key": "hold_tight",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "抱紧"
+      ],
+      "description": "抱紧"
+    },
+    {
+      "key": "hug",
+      "type": "GIF",
+      "length": 10,
+      "alias": [
+        "抱",
+        "抱抱"
+      ],
+      "description": "抱抱",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "hug_leg",
+      "type": "GIF",
+      "length": 6,
+      "alias": [
+        "抱大腿",
+        "蹭"
+      ],
+      "description": "抱大腿"
+    },
+    {
+      "key": "hutao_bite",
+      "type": "GIF",
+      "length": 2,
+      "alias": [
+        "胡桃啃"
+      ],
+      "description": "胡桃啃"
+    },
+    {
+      "key": "hypnotize",
+      "type": "GIF",
+      "length": 42,
+      "alias": [
+        "手机",
+        "催眠",
+        "486",
+        "mmk"
+      ],
+      "description": "手机"
+    },
+    {
+      "key": "imprison",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "坐牢"
+      ],
+      "description": "坐牢"
+    },
+    {
+      "key": "incivilization",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "不文明"
+      ],
+      "description": "不文明"
+    },
+    {
+      "key": "intel_inside",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "inside"
+      ],
+      "description": "inside"
+    },
+    {
+      "key": "interview",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "采访"
+      ],
+      "description": "采访"
+    },
+    {
+      "key": "jerry_hold",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "杰瑞",
+        "观察"
+      ],
+      "description": "杰瑞"
+    },
+    {
+      "key": "jerry_stare",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "杰瑞盯"
+      ],
+      "description": "杰瑞盯"
+    },
+    {
+      "key": "jiamianqishi",
+      "type": "GIF",
+      "length": 62,
+      "alias": [
+        "假面骑士"
+      ],
+      "description": "假面骑士"
+    },
+    {
+      "key": "jiji_king",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "急急国王"
+      ],
+      "description": "急急国王"
+    },
+    {
+      "key": "jinhsi",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "汐汐",
+        "今汐"
+      ],
+      "description": "汐汐",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "jiubingfufa",
+      "type": "GIF",
+      "length": 26,
+      "alias": [
+        "旧病复发"
+      ],
+      "description": "旧病复发"
+    },
+    {
+      "key": "jiujiu",
+      "type": "GIF",
+      "length": 7,
+      "alias": [
+        "么么"
+      ],
+      "description": "么么"
+    },
+    {
+      "key": "join",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "加入"
+      ],
+      "description": "加入"
+    },
+    {
+      "key": "jump",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "跳"
+      ],
+      "description": "跳"
+    },
+    {
+      "key": "karyl_point",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "指",
+        "凯露指"
+      ],
+      "description": "指"
+    },
+    {
+      "key": "keep_away",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "远离"
+      ],
+      "description": "远离"
+    },
+    {
+      "key": "keep_your_money",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "压岁钱不要交给"
+      ],
+      "description": "压岁钱不要交给",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "kick_ball",
+      "type": "GIF",
+      "length": 15,
+      "alias": [
+        "踢球"
+      ],
+      "description": "踢球"
+    },
+    {
+      "key": "kirby_hammer",
+      "type": "GIF",
+      "length": 31,
+      "alias": [
+        "卡比锤",
+        "卡比重锤",
+        "重锤"
+      ],
+      "description": "卡比锤"
+    },
+    {
+      "key": "kiss",
+      "type": "GIF",
+      "length": 13,
+      "alias": [
+        "亲",
+        "热吻"
+      ],
+      "description": "亲"
+    },
+    {
+      "key": "kita",
+      "type": "GIF",
+      "length": 30,
+      "alias": [
+        "喜多",
+        "展示"
+      ],
+      "description": "喜多"
+    },
+    {
+      "key": "klee_eat",
+      "type": "GIF",
+      "length": 31,
+      "alias": [
+        "可莉吃"
+      ],
+      "description": "可莉吃"
+    },
+    {
+      "key": "knock",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "敲",
+        "打"
+      ],
+      "description": "敲"
+    },
+    {
+      "key": "kokona_seal",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "心奈印章"
+      ],
+      "description": "心奈印章",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "konata_watch",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "泉此方看"
+      ],
+      "description": "泉此方看"
+    },
+    {
+      "key": "learn",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "偷学"
+      ],
+      "description": "偷学"
+    },
+    {
+      "key": "left_down_symmetry",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "中心对称",
+        "左下对称"
+      ],
+      "description": "中心对称"
+    },
+    {
+      "key": "left_right_jump",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "左右横跳"
+      ],
+      "description": "左右横跳",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "let_me_in",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "让我进去"
+      ],
+      "description": "让我进去"
+    },
+    {
+      "key": "lick_candy",
+      "type": "GIF",
+      "length": 91,
+      "alias": [
+        "舔糖",
+        "舔棒棒糖"
+      ],
+      "description": "舔糖"
+    },
+    {
+      "key": "lift",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "举起"
+      ],
+      "description": "举起"
+    },
+    {
+      "key": "lim_x_0",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "等价无穷小"
+      ],
+      "description": "等价无穷小"
+    },
+    {
+      "key": "listen_music",
+      "type": "GIF",
+      "length": 36,
+      "alias": [
+        "听音乐",
+        "唱片"
+      ],
+      "description": "听音乐"
+    },
+    {
+      "key": "little_angel",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "小天使"
+      ],
+      "description": "小天使"
+    },
+    {
+      "key": "loading",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "加载",
+        "加载中"
+      ],
+      "description": "加载"
+    },
+    {
+      "key": "look_flat",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "看扁"
+      ],
+      "description": "看扁",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "look_this_icon",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "看图标"
+      ],
+      "description": "看图标"
+    },
+    {
+      "key": "lost_notice",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "寻狗启事"
+      ],
+      "description": "寻狗启事"
+    },
+    {
+      "key": "love_you",
+      "type": "GIF",
+      "length": 2,
+      "alias": [
+        "永远爱你"
+      ],
+      "description": "永远爱你"
+    },
+    {
+      "key": "luotianyi_need",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "洛天依要",
+        "天依要"
+      ],
+      "description": "洛天依要"
+    },
+    {
+      "key": "luotianyi_say",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "洛天依说",
+        "天依说"
+      ],
+      "description": "洛天依说"
+    },
+    {
+      "key": "luoyonghao_say",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "罗永浩说"
+      ],
+      "description": "罗永浩说"
+    },
+    {
+      "key": "luxun_say",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "鲁迅说",
+        "鲁迅说过"
+      ],
+      "description": "鲁迅说"
+    },
+    {
+      "key": "mahiro_readbook",
+      "type": "GIF",
+      "length": 48,
+      "alias": [
+        "真寻看书"
+      ],
+      "description": "真寻看书"
+    },
+    {
+      "key": "maimai_awaken",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "旅行伙伴觉醒"
+      ],
+      "description": "旅行伙伴觉醒"
+    },
+    {
+      "key": "maimai_join",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "旅行伙伴加入"
+      ],
+      "description": "旅行伙伴加入"
+    },
+    {
+      "key": "maikease",
+      "type": "GIF",
+      "length": 87,
+      "alias": [
+        "麦克阿瑟说"
+      ],
+      "description": "麦克阿瑟说"
+    },
+    {
+      "key": "make_friend",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "加好友"
+      ],
+      "description": "加好友"
+    },
+    {
+      "key": "marriage",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "结婚申请",
+        "结婚登记",
+        "结婚"
+      ],
+      "description": "结婚申请",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "masterpiece",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "名作"
+      ],
+      "description": "名作"
+    },
+    {
+      "key": "meteor",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "流星"
+      ],
+      "description": "流星"
+    },
+    {
+      "key": "mihoyo",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "米哈游"
+      ],
+      "description": "米哈游",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "monad",
+      "type": "GIF",
+      "length": 24,
+      "alias": [
+        "唐可可",
+        "拍",
+        "单页"
+      ],
+      "description": "唐可可"
+    },
+    {
+      "key": "mourning",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "上香"
+      ],
+      "description": "上香"
+    },
+    {
+      "key": "murmur",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "低语"
+      ],
+      "description": "低语"
+    },
+    {
+      "key": "my_opinion",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "我的意见如下",
+        "我的意见是"
+      ],
+      "description": "我的意见如下"
+    },
+    {
+      "key": "my_wife",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "我老婆",
+        "这是我老婆"
+      ],
+      "description": "我老婆",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "nahida_bite",
+      "type": "GIF",
+      "length": 38,
+      "alias": [
+        "纳西妲啃",
+        "草神啃"
+      ],
+      "description": "纳西妲啃"
+    },
+    {
+      "key": "nano",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "纳米科技"
+      ],
+      "description": "纳米科技"
+    },
+    {
+      "key": "need",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "需要"
+      ],
+      "description": "需要"
+    },
+    {
+      "key": "nekoha_holdsign",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "猫羽雫举牌",
+        "猫猫举牌"
+      ],
+      "description": "猫羽雫举牌"
+    },
+    {
+      "key": "nihaosaoa",
+      "type": "GIF",
+      "length": 63,
+      "alias": [
+        "你好骚啊"
+      ],
+      "description": "你好骚啊"
+    },
+    {
+      "key": "nijika_holdsign",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "虹夏举牌"
+      ],
+      "description": "虹夏举牌"
+    },
+    {
+      "key": "no_response",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "无响应"
+      ],
+      "description": "无响应"
+    },
+    {
+      "key": "nokia",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "诺基亚",
+        "有内鬼"
+      ],
+      "description": "诺基亚"
+    },
+    {
+      "key": "note_for_leave",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "请假条"
+      ],
+      "description": "请假条"
+    },
+    {
+      "key": "oil",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "油画"
+      ],
+      "description": "油画"
+    },
+    {
+      "key": "oshi_no_ko",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "我推的网友"
+      ],
+      "description": "我推的网友"
+    },
+    {
+      "key": "osu",
+      "type": "IMG",
+      "length": 1,
+      "alias": [],
+      "description": "osu"
+    },
+    {
+      "key": "out",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "out"
+      ],
+      "description": "out",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "overtime",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "加班"
+      ],
+      "description": "加班"
+    },
+    {
+      "key": "paint",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "这像画吗"
+      ],
+      "description": "这像画吗"
+    },
+    {
+      "key": "painter",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "画"
+      ],
+      "description": "画"
+    },
+    {
+      "key": "panda_dragon_figure",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "熊猫龙图"
+      ],
+      "description": "熊猫龙图"
+    },
+    {
+      "key": "pass_the_buck",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "推锅",
+        "甩锅"
+      ],
+      "description": "推锅"
+    },
+    {
+      "key": "pat",
+      "type": "GIF",
+      "length": 10,
+      "alias": [
+        "拍"
+      ],
+      "description": "拍"
+    },
+    {
+      "key": "peep",
+      "type": "GIF",
+      "length": 20,
+      "alias": [
+        "泷奈",
+        "偷看"
+      ],
+      "description": "泷奈"
+    },
+    {
+      "key": "pepe_raise",
+      "type": "GIF",
+      "length": 6,
+      "alias": [
+        "佩佩举"
+      ],
+      "description": "佩佩举",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "perfect",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "完美"
+      ],
+      "description": "完美"
+    },
+    {
+      "key": "petpet",
+      "type": "GIF",
+      "length": 5,
+      "alias": [
+        "摸",
+        "摸头"
+      ],
+      "description": "摸"
+    },
+    {
+      "key": "php",
+      "type": "IMG",
+      "length": 1,
+      "alias": [],
+      "description": "php"
+    },
+    {
+      "key": "pixelate",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "像素化"
+      ],
+      "description": "像素化"
+    },
+    {
+      "key": "pinch",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "透镜",
+        "收缩",
+        "捏合"
+      ],
+      "description": "透镜"
+    },
+    {
+      "key": "plana_eat",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "普拉娜吃",
+        "普拉娜舔"
+      ],
+      "description": "普拉娜吃"
+    },
+    {
+      "key": "play_baseball",
+      "type": "GIF",
+      "length": 20,
+      "alias": [
+        "打棒球"
+      ],
+      "description": "打棒球"
+    },
+    {
+      "key": "play_basketball",
+      "type": "GIF",
+      "length": 38,
+      "alias": [
+        "打篮球",
+        "火柴人打篮球"
+      ],
+      "description": "打篮球"
+    },
+    {
+      "key": "play_game",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "玩游戏",
+        "屏幕"
+      ],
+      "description": "玩游戏"
+    },
+    {
+      "key": "play_together",
+      "type": "GIF",
+      "length": 60,
+      "alias": [
+        "一起玩"
+      ],
+      "description": "一起玩"
+    },
+    {
+      "key": "point_tv",
+      "type": "GIF",
+      "length": 15,
+      "alias": [
+        "康纳",
+        "电视"
+      ],
+      "description": "康纳"
+    },
+    {
+      "key": "police",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "警察"
+      ],
+      "description": "警察"
+    },
+    {
+      "key": "policeman",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "警察"
+      ],
+      "description": "警察"
+    },
+    {
+      "key": "pornhub",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "ph",
+        "pornhub"
+      ],
+      "description": "pornhub"
+    },
+    {
+      "key": "pomni_door",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "帕姆尼",
+        "开门"
+      ],
+      "description": "帕姆尼"
+    },
+    {
+      "key": "potato",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "土豆"
+      ],
+      "description": "土豆"
+    },
+    {
+      "key": "pound",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "捣"
+      ],
+      "description": "捣"
+    },
+    {
+      "key": "praise",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "表扬"
+      ],
+      "description": "表扬"
+    },
+    {
+      "key": "printing",
+      "type": "GIF",
+      "length": 29,
+      "alias": [
+        "打印"
+      ],
+      "description": "打印"
+    },
+    {
+      "key": "prpr",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "舔",
+        "舔屏",
+        "prpr"
+      ],
+      "description": "舔"
+    },
+    {
+      "key": "psyduck",
+      "type": "GIF",
+      "length": 18,
+      "alias": [
+        "可达鸭"
+      ],
+      "description": "可达鸭"
+    },
+    {
+      "key": "punch",
+      "type": "GIF",
+      "length": 13,
+      "alias": [
+        "打拳"
+      ],
+      "description": "打拳"
+    },
+    {
+      "key": "pyramid",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "四棱锥",
+        "金字塔"
+      ],
+      "description": "四棱锥",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "qiegewala",
+      "type": "GIF",
+      "length": 80,
+      "alias": [
+        "切格瓦拉",
+        "打工是不可能打工的"
+      ],
+      "description": "切格瓦拉"
+    },
+    {
+      "key": "raise_image",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "举"
+      ],
+      "description": "举"
+    },
+    {
+      "key": "raise_sign",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "举牌"
+      ],
+      "description": "举牌"
+    },
+    {
+      "key": "read_book",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "看书"
+      ],
+      "description": "看书"
+    },
+    {
+      "key": "recaptcha",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "验证",
+        "选择"
+      ],
+      "description": "验证"
+    },
+    {
+      "key": "remake",
+      "type": "GIF",
+      "length": 39,
+      "alias": [
+        "泥头车",
+        "创",
+        "重开"
+      ],
+      "description": "泥头车"
+    },
+    {
+      "key": "remote_control",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "遥控",
+        "控制"
+      ],
+      "description": "遥控",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "reverse",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "倒放"
+      ],
+      "description": "倒放"
+    },
+    {
+      "key": "reward",
+      "type": "GIF",
+      "length": 23,
+      "alias": [
+        "伊蕾娜",
+        "赏金",
+        "报酬"
+      ],
+      "description": "伊蕾娜"
+    },
+    {
+      "key": "rgb",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "变色"
+      ],
+      "description": "变色"
+    },
+    {
+      "key": "right_down_symmetry",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "中心对称",
+        "右下对称"
+      ],
+      "description": "中心对称"
+    },
+    {
+      "key": "right_up_symmetry",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "中心对称",
+        "右上对称"
+      ],
+      "description": "中心对称"
+    },
+    {
+      "key": "rip",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "撕"
+      ],
+      "description": "撕",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "rip_angrily",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "怒撕"
+      ],
+      "description": "怒撕"
+    },
+    {
+      "key": "rip_clothes",
+      "type": "GIF",
+      "length": 20,
+      "alias": [
+        "撕衣服"
+      ],
+      "description": "撕衣服"
+    },
+    {
+      "key": "rise_dead",
+      "type": "GIF",
+      "length": 17,
+      "alias": [
+        "诈尸",
+        "秽土转生"
+      ],
+      "description": "诈尸"
+    },
+    {
+      "key": "roll",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "滚",
+        "推"
+      ],
+      "description": "滚"
+    },
+    {
+      "key": "rotate_3d",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "三维旋转"
+      ],
+      "description": "三维旋转",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "rub",
+      "type": "GIF",
+      "length": 6,
+      "alias": [
+        "舔",
+        "prpr"
+      ],
+      "description": "舔"
+    },
+    {
+      "key": "run",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "快跑"
+      ],
+      "description": "快跑"
+    },
+    {
+      "key": "run_away",
+      "type": "GIF",
+      "length": 42,
+      "alias": [
+        "快逃"
+      ],
+      "description": "快逃",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "sad_news",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "悲报"
+      ],
+      "description": "悲报"
+    },
+    {
+      "key": "safe_sense",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "安全感"
+      ],
+      "description": "安全感"
+    },
+    {
+      "key": "saimin_app",
+      "type": "GIF",
+      "length": 25,
+      "alias": [
+        "催眠app"
+      ],
+      "description": "催眠app",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "scratch_head",
+      "type": "GIF",
+      "length": 6,
+      "alias": [
+        "挠头"
+      ],
+      "description": "挠头"
+    },
+    {
+      "key": "scratchcard",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "刮刮乐"
+      ],
+      "description": "刮刮乐"
+    },
+    {
+      "key": "seal",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "源石封印"
+      ],
+      "description": "源石封印",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "sekaiichi_kawaii",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "世界第一可爱"
+      ],
+      "description": "世界第一可爱",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "sell",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "卖",
+        "人气"
+      ],
+      "description": "卖"
+    },
+    {
+      "key": "shake_head",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "晃脑"
+      ],
+      "description": "晃脑",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "shiroko_pero",
+      "type": "GIF",
+      "length": 4,
+      "alias": [
+        "白子舔"
+      ],
+      "description": "白子舔",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "shishilani",
+      "type": "GIF",
+      "length": 66,
+      "alias": [
+        "食屎啦你"
+      ],
+      "description": "食屎啦你"
+    },
+    {
+      "key": "shuifandui",
+      "type": "GIF",
+      "length": 63,
+      "alias": [
+        "谁反对"
+      ],
+      "description": "谁反对"
+    },
+    {
+      "key": "show_case",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "展示"
+      ],
+      "description": "展示"
+    },
+    {
+      "key": "shutup",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "别说了"
+      ],
+      "description": "别说了"
+    },
+    {
+      "key": "sit_still",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "坐得住"
+      ],
+      "description": "坐得住"
+    },
+    {
+      "key": "slap",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "一巴掌"
+      ],
+      "description": "一巴掌"
+    },
+    {
+      "key": "slogan",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "口号"
+      ],
+      "description": "口号"
+    },
+    {
+      "key": "smash",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "砸",
+        "打碎"
+      ],
+      "description": "砸"
+    },
+    {
+      "key": "sold_out",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "卖掉了"
+      ],
+      "description": "卖掉了",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "speechless",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "无语"
+      ],
+      "description": "无语",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "spider",
+      "type": "GIF",
+      "length": 52,
+      "alias": [
+        "蜘蛛",
+        "蜘蛛爬"
+      ],
+      "description": "蜘蛛"
+    },
+    {
+      "key": "stare_at_you",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "盯着你"
+      ],
+      "description": "盯着你"
+    },
+    {
+      "key": "steam_message",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "steam消息"
+      ],
+      "description": "steam消息",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "step_on",
+      "type": "GIF",
+      "length": 5,
+      "alias": [
+        "踩"
+      ],
+      "description": "踩"
+    },
+    {
+      "key": "stew",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "炖"
+      ],
+      "description": "炖"
+    },
+    {
+      "key": "stickman_dancing",
+      "type": "GIF",
+      "length": 109,
+      "alias": [
+        "跳舞",
+        "火柴人跳舞"
+      ],
+      "description": "跳舞"
+    },
+    {
+      "key": "subject3",
+      "type": "GIF",
+      "length": 85,
+      "alias": [
+        "科目三"
+      ],
+      "description": "科目三"
+    },
+    {
+      "key": "suck",
+      "type": "GIF",
+      "length": 12,
+      "alias": [
+        "吸"
+      ],
+      "description": "吸"
+    },
+    {
+      "key": "support",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "精神支柱"
+      ],
+      "description": "精神支柱"
+    },
+    {
+      "key": "sweat",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "流汗"
+      ],
+      "description": "流汗"
+    },
+    {
+      "key": "swim",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "潜水",
+        "游泳",
+        "水下"
+      ],
+      "description": "潜水"
+    },
+    {
+      "key": "swirl",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "扭曲"
+      ],
+      "description": "扭曲"
+    },
+    {
+      "key": "swirl_turn",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "回旋转",
+        "旋风转"
+      ],
+      "description": "回旋转"
+    },
+    {
+      "key": "symmetric",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "对称",
+        "左对称",
+        "右对称",
+        "上对称",
+        "下对称",
+        "左右对称",
+        "上下对称"
+      ],
+      "description": "对称"
+    },
+    {
+      "key": "tankuku_raisesign",
+      "type": "GIF",
+      "length": 15,
+      "alias": [
+        "唐可可举牌",
+        "唐可可",
+        "举牌",
+        "应援"
+      ],
+      "description": "唐可可举牌"
+    },
+    {
+      "key": "taunt",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "嘲讽"
+      ],
+      "description": "嘲讽"
+    },
+    {
+      "key": "teach",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "讲课",
+        "敲黑板"
+      ],
+      "description": "讲课"
+    },
+    {
+      "key": "teapot",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "泡茶"
+      ],
+      "description": "泡茶"
+    },
+    {
+      "key": "tease",
+      "type": "GIF",
+      "length": 24,
+      "alias": [
+        "拿捏",
+        "戏弄"
+      ],
+      "description": "拿捏"
+    },
+    {
+      "key": "telescope",
+      "type": "GIF",
+      "length": 69,
+      "alias": [
+        "望远镜"
+      ],
+      "description": "望远镜"
+    },
+    {
+      "key": "thermometer_gun",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "体温枪"
+      ],
+      "description": "体温枪",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "think_what",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "想什么"
+      ],
+      "description": "想什么"
+    },
+    {
+      "key": "this_chicken",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "这是鸡",
+        "🐔",
+        "符咒"
+      ],
+      "description": "这是鸡"
+    },
+    {
+      "key": "throw",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "扔"
+      ],
+      "description": "投掷（双头像）"
+    },
+    {
+      "key": "throw_gif",
+      "type": "GIF",
+      "length": 8,
+      "alias": [
+        "抛",
+        "掷"
+      ],
+      "description": "投掷（单头像）"
+    },
+    {
+      "key": "thump",
+      "type": "GIF",
+      "length": 4,
+      "alias": [
+        "锤"
+      ],
+      "description": "锤"
+    },
+    {
+      "key": "thump_wildly",
+      "type": "GIF",
+      "length": 37,
+      "alias": [
+        "捶爆",
+        "爆捶"
+      ],
+      "description": "捶爆"
+    },
+    {
+      "key": "tightly",
+      "type": "GIF",
+      "length": 20,
+      "alias": [
+        "黏"
+      ],
+      "description": "黏"
+    },
+    {
+      "key": "time_to_go",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "该走了"
+      ],
+      "description": "该走了"
+    },
+    {
+      "key": "together",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "一起"
+      ],
+      "description": "一起"
+    },
+    {
+      "key": "tom_door",
+      "type": "GIF",
+      "length": 24,
+      "alias": [
+        "汤姆",
+        "开门"
+      ],
+      "description": "汤姆"
+    },
+    {
+      "key": "tom_tease",
+      "type": "GIF",
+      "length": 11,
+      "alias": [
+        "汤姆嘲笑"
+      ],
+      "description": "汤姆嘲笑"
+    },
+    {
+      "key": "tomb_yeah",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "上坟",
+        "坟前比耶"
+      ],
+      "description": "坟前比耶",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "trance",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "恍惚"
+      ],
+      "description": "恍惚"
+    },
+    {
+      "key": "trolley",
+      "type": "GIF",
+      "length": 50,
+      "alias": [
+        "推车"
+      ],
+      "description": "推车"
+    },
+    {
+      "key": "turn",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "转"
+      ],
+      "description": "转"
+    },
+    {
+      "key": "turtle",
+      "type": "GIF",
+      "length": 14,
+      "alias": [
+        "乌龟",
+        "🐢"
+      ],
+      "description": "乌龟"
+    },
+    {
+      "key": "twist",
+      "type": "GIF",
+      "length": 5,
+      "alias": [
+        "抱"
+      ],
+      "description": "抱"
+    },
+    {
+      "key": "universal",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "万能表情",
+        "空白表情"
+      ],
+      "description": "万能表情"
+    },
+    {
+      "key": "upside_down",
+      "type": "IMG",
+      "length": 0,
+      "alias": [
+        "反了"
+      ],
+      "description": "反了"
+    },
+    {
+      "key": "us_election",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "大选",
+        "总统"
+      ],
+      "description": "大选"
+    },
+    {
+      "key": "vibrate",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "震动"
+      ],
+      "description": "震动"
+    },
+    {
+      "key": "wakeup",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "好起来了"
+      ],
+      "description": "好起来了"
+    },
+    {
+      "key": "wallpaper",
+      "type": "GIF",
+      "length": 20,
+      "alias": [
+        "瑞克",
+        "壁纸"
+      ],
+      "description": "瑞克"
+    },
+    {
+      "key": "walnut_pad",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "胡桃平板",
+        "平板"
+      ],
+      "description": "胡桃平板"
+    },
+    {
+      "key": "walnut_zoom",
+      "type": "GIF",
+      "length": 24,
+      "alias": [
+        "胡桃放大",
+        "胡桃"
+      ],
+      "description": "胡桃放大"
+    },
+    {
+      "key": "wangjingze",
+      "type": "GIF",
+      "length": 52,
+      "alias": [
+        "王境泽",
+        "真香"
+      ],
+      "description": "王境泽"
+    },
+    {
+      "key": "washer",
+      "type": "GIF",
+      "length": 12,
+      "alias": [
+        "洗衣机"
+      ],
+      "description": "洗衣机"
+    },
+    {
+      "key": "watch_tv",
+      "type": "GIF",
+      "length": 22,
+      "alias": [
+        "汤姆",
+        "电视"
+      ],
+      "description": "汤姆"
+    },
+    {
+      "key": "weisuoyuwei",
+      "type": "GIF",
+      "length": 167,
+      "alias": [
+        "为所欲为"
+      ],
+      "description": "为所欲为"
+    },
+    {
+      "key": "what_he_wants",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "最想要的东西"
+      ],
+      "description": "最想要的东西"
+    },
+    {
+      "key": "what_i_want_to_do",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "我想上的"
+      ],
+      "description": "我想上的"
+    },
+    {
+      "key": "why_at_me",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "为什么@我"
+      ],
+      "description": "为什么@我"
+    },
+    {
+      "key": "why_have_hands",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "为什么要有手"
+      ],
+      "description": "为什么要有手"
+    },
+    {
+      "key": "wife",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "老婆"
+      ],
+      "description": "老婆"
+    },
+    {
+      "key": "windmill_turn",
+      "type": "GIF",
+      "length": 0,
+      "alias": [
+        "风车转"
+      ],
+      "description": "风车转",
+      "thumbnail": "preview.png"
+    },
+    {
+      "key": "wish_fail",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "许愿失败"
+      ],
+      "description": "许愿失败"
+    },
+    {
+      "key": "wooden_fish",
+      "type": "GIF",
+      "length": 66,
+      "alias": [
+        "木鱼"
+      ],
+      "description": "木鱼"
+    },
+    {
+      "key": "worship",
+      "type": "GIF",
+      "length": 10,
+      "alias": [
+        "膜拜"
+      ],
+      "description": "膜拜"
+    },
+    {
+      "key": "wujing",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "吴京中国"
+      ],
+      "description": "吴京中国"
+    },
+    {
+      "key": "wunian",
+      "type": "GIF",
+      "length": 96,
+      "alias": [
+        "五年怎么过的"
+      ],
+      "description": "五年怎么过的"
+    },
+    {
+      "key": "wuyage",
+      "type": "GIF",
+      "length": 85,
+      "alias": [
+        "乌鸦哥"
+      ],
+      "description": "乌鸦哥"
+    },
+    {
+      "key": "yalidaye",
+      "type": "GIF",
+      "length": 78,
+      "alias": [
+        "压力大爷"
+      ],
+      "description": "压力大爷"
+    },
+    {
+      "key": "yoasobi",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "群青"
+      ],
+      "description": "群青"
+    },
+    {
+      "key": "you_dont_get",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "你不懂啦"
+      ],
+      "description": "你不懂啦"
+    },
+    {
+      "key": "you_should_call",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "致电",
+        "你应该致电"
+      ],
+      "description": "你应该致电"
+    },
+    {
+      "key": "your_new_years_eve",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "你的跨年"
+      ],
+      "description": "你的跨年"
+    },
+    {
+      "key": "youtube",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "yt",
+        "youtube"
+      ],
+      "description": "youtube"
+    },
+    {
+      "key": "zengxiaoxian",
+      "type": "GIF",
+      "length": 76,
+      "alias": [
+        "曾小贤"
+      ],
+      "description": "曾小贤"
+    },
+    {
+      "key": "zun_point",
+      "type": "IMG",
+      "length": 1,
+      "alias": [
+        "ZUN",
+        "指",
+        "合影"
+      ],
+      "description": "指"
+    }
+  ]
+}

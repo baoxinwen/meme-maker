@@ -1,0 +1,93 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "when": "not(option_person)",
+      "pos": [
+        "153 - avatar0Width / 2",
+        "341 - avatar0Height / 2",
+        "avatar0Width",
+        "avatar0Height"
+      ],
+      "preFitSize": [554, 442],
+      "deformCrop": [0, 0, 277, 442],
+      "preRotate": -26,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    },
+    {
+      "type": "FROM",
+      "when": "not(option_person)",
+      "pos": [
+        "canvasWidth - (153 - avatar0Width / 2) - avatar1Width",
+        "341 - avatar1Height / 2",
+        "avatar1Width",
+        "avatar1Height"
+      ],
+      "preFitSize": [554, 442],
+      "deformCrop": [277, 0, 554, 442],
+      "preRotate": 26,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    },
+    {
+      "type": "FROM",
+      "when": "option_person",
+      "pos": [
+        "174 - avatar2Width / 2",
+        "378 - avatar2Height / 2",
+        "avatar2Width",
+        "avatar2Height"
+      ],
+      "preFitSize": [434, 467],
+      "deformCrop": [0, 0, 217, 467],
+      "preRotate": -26,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    },
+    {
+      "type": "FROM",
+      "when": "option_person",
+      "pos": [
+        "canvasWidth - (174 - avatar2Width / 2) - avatar3Width",
+        "378 - avatar3Height / 2",
+        "avatar3Width",
+        "avatar3Height"
+      ],
+      "preFitSize": [434, 467],
+      "deformCrop": [217, 0, 434, 467],
+      "preRotate": 26,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["if(option_person, 750, 746)", "if(option_person, 750, 672)"],
+    "color": "#ffffff00",
+    "layers": [
+      {
+        "asset": "circle.png",
+        "when": "not(option_person)"
+      },
+      {
+        "asset": "person.png",
+        "when": "option_person"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "BOOLEAN",
+      "key": "person",
+      "label": "使用人物头部轮廓",
+      "default": false
+    }
+  ],
+  "alias": ["小丑"]
+}

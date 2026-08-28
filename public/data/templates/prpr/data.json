@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "posType": "DEFORM",
+      "pos": [[0, 19], [236, 0], [287, 264], [66, 351], [56, 284]],
+      "deformSize": [330, 330],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["舔", "舔屏", "prpr"]
+}

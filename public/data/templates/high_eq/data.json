@@ -1,0 +1,25 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[高情商]",
+      "area": [40, 540, 602, 1140],
+      "minSize": 50,
+      "maxSize": 100,
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 5
+    },
+    {
+      "text": "$txt2[低情商]",
+      "area": [682, 540, 1244, 1140],
+      "minSize": 50,
+      "maxSize": 100,
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 5
+    }
+  ],
+  "alias": ["高低情商", "低高情商"]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[穿西装打领带]",
+      "when": "and(gte(frameIndex, 14), lt(frameIndex, 21))",
+      "area": [5, 106, 251, 139],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[拿大哥大有什么用]",
+      "when": "and(gte(frameIndex, 23), lt(frameIndex, 36))",
+      "area": [5, 106, 251, 139],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[跟着这样的大哥]",
+      "when": "and(gte(frameIndex, 38), lt(frameIndex, 46))",
+      "area": [5, 106, 251, 139],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[食屎啦你]",
+      "when": "and(gte(frameIndex, 60), lt(frameIndex, 66))",
+      "area": [5, 106, 251, 139],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 200,
+  "alias": ["食屎啦你"],
+  "previewFrame": 62
+}

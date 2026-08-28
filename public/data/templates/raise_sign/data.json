@@ -1,0 +1,18 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[大佬带带我]",
+      "area": [10, 10, 350, 250],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#51201b",
+      "align": "CENTER",
+      "deformSize": [360, 260],
+      "deform": [[318, 24], [660, 144], [618, 411], [285, 282]]
+    }
+  ],
+  "alias": ["举牌"]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[听不懂，退朝]",
+      "area": [10, 442, 502, 507],
+      "minSize": 20,
+      "maxSize": 60,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["皇帝龙图"]
+}

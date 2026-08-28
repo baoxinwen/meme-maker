@@ -1,0 +1,27 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [18, 170, "avatar0Width", "avatar0Height"],
+      "square": true,
+      "preFitSize": [105, 105],
+      "preRotate": 24,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    },
+    {
+      "type": "TO",
+      "pos": [163, 65, "avatar1Width", "avatar1Height"],
+      "square": true,
+      "preFitSize": [105, 105],
+      "preRotate": -24,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["怒撕"]
+}

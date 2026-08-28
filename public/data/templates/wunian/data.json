@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[五年]",
+      "when": "and(gte(frameIndex, 11), lt(frameIndex, 20))",
+      "area": [5, 94, 257, 127],
+      "minSize": 12,
+      "maxSize": 16,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[你知道我这五年是怎么过的吗]",
+      "when": "and(gte(frameIndex, 35), lt(frameIndex, 50))",
+      "area": [5, 94, 257, 127],
+      "minSize": 12,
+      "maxSize": 16,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[我每天躲在家里玩贪玩蓝月]",
+      "when": "and(gte(frameIndex, 59), lt(frameIndex, 77))",
+      "area": [5, 94, 257, 127],
+      "minSize": 12,
+      "maxSize": 16,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[你知道有多好玩吗]",
+      "when": "and(gte(frameIndex, 82), lt(frameIndex, 95))",
+      "area": [5, 94, 257, 127],
+      "minSize": 12,
+      "maxSize": 16,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 100,
+  "alias": ["五年怎么过的"],
+  "previewFrame": 87
+}

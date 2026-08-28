@@ -1,0 +1,24 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [486, 616, 538, 538],
+      "fit": "CONTAIN",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[今年520我会给你每个男人都最想要的东西···]",
+      "area": [0, 514, 1024, 614],
+      "minSize": 20,
+      "maxSize": 80,
+      "color": "#000000",
+      "strokeColor": "#ffffff",
+      "strokeSize": 10,
+      "style": "BOLD"
+    }
+  ],
+  "alias": ["最想要的东西"]
+}

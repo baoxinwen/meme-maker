@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [50, 50, 400, 400],
+      "square": true,
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["旅行伙伴加入"]
+}

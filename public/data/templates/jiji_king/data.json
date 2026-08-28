@@ -1,0 +1,23 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [237, 5, 125, 125],
+      "fit": "FILL",
+      "round": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[我是急急国王]",
+      "area": [10, 300, 490, 390],
+      "minSize": 30,
+      "maxSize": 100,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["急急国王"]
+}

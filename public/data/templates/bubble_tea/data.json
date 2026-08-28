@@ -1,0 +1,40 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, 500, 500],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [500, 500],
+    "color": "#ffffff00",
+    "layers": [
+      {
+        "asset": "overlay-left.png",
+        "when": "or(eq(option_position, 0), eq(option_position, 2))"
+      },
+      {
+        "asset": "overlay-right.png",
+        "when": "gte(option_position, 1)"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "position",
+      "label": "奶茶位置",
+      "default": "right",
+      "choices": [
+        { "value": "left", "label": "左侧" },
+        { "value": "right", "label": "右侧" },
+        { "value": "both", "label": "双侧" }
+      ]
+    }
+  ],
+  "alias": ["奶茶"]
+}

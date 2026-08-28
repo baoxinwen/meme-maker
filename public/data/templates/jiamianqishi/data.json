@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[哦～]",
+      "when": "and(gte(frameIndex, 2), lt(frameIndex, 9))",
+      "area": [5, 157, 395, 190],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[（飞扑）]",
+      "when": "and(gte(frameIndex, 14), lt(frameIndex, 20))",
+      "area": [5, 157, 395, 190],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[一直想看你这幅表情]",
+      "when": "and(gte(frameIndex, 27), lt(frameIndex, 40))",
+      "area": [5, 157, 395, 190],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[这幅嫉妒我的表情]",
+      "when": "and(gte(frameIndex, 45), lt(frameIndex, 62))",
+      "area": [5, 157, 395, 190],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 120,
+  "alias": ["假面骑士"],
+  "previewFrame": 50
+}

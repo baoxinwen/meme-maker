@@ -1,0 +1,83 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        125,
+        105,
+        400,
+        "floor(avatar0Height * 400 / avatar0Width)"
+      ],
+      "fit": "FILL"
+    }
+  ],
+  "text": [
+    {
+      "text": "如果你的$option[name]长这样",
+      "area": [27, 12, 623, 91],
+      "minSize": 30,
+      "maxSize": 70,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    },
+    {
+      "text": "那么这就不是你的$option[name]\n这是$option[pronoun]的$option[name]",
+      "area": [
+        27,
+        "floor(avatar0Height * 400 / avatar0Width) + 120",
+        620,
+        "floor(avatar0Height * 400 / avatar0Width) + 255"
+      ],
+      "minSize": 30,
+      "maxSize": 70,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    },
+    {
+      "text": "滚去找你\n自己的$option[name]去",
+      "area": [
+        27,
+        "floor(avatar0Height * 400 / avatar0Width) + 295",
+        401,
+        "floor(avatar0Height * 400 / avatar0Width) + 430"
+      ],
+      "minSize": 30,
+      "maxSize": 70,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [650, "floor(avatar0Height * 400 / avatar0Width) + 500"],
+    "color": "#ffffff",
+    "layers": [
+      {
+        "asset": "pointer.png",
+        "pos": [421, "floor(avatar0Height * 400 / avatar0Width) + 270"],
+        "size": [200, "floor(imageHeight * 200 / imageWidth)"],
+        "fit": "FILL"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "pronoun",
+      "label": "人称代词",
+      "default": "我",
+      "maxLength": 12
+    },
+    {
+      "type": "TEXT",
+      "key": "name",
+      "label": "称呼",
+      "default": "老婆",
+      "maxLength": 12
+    }
+  ],
+  "alias": ["我老婆", "这是我老婆"]
+}

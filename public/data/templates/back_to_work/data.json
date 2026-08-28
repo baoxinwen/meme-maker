@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [56, 32, "avatar0Width", "avatar0Height"],
+      "preFitSize": [220, 310],
+      "preRotate": -25,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["继续干活", "打工人"]
+}

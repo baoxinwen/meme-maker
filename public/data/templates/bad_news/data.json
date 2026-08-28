@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[悲报]",
+      "area": [50, 100, 550, 325],
+      "minSize": 30,
+      "maxSize": 60,
+      "strokeColor": "#ffffff",
+      "strokeSize": 5
+    }
+  ],
+  "alias": ["悲报"]
+}

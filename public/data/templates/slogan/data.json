@@ -1,0 +1,43 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我们是谁？]",
+      "area": [10, 0, 294, 50],
+      "minSize": 15,
+      "maxSize": 40
+    },
+    {
+      "text": "$txt2[浙大人！]",
+      "area": [316, 0, 602, 50],
+      "minSize": 15,
+      "maxSize": 40
+    },
+    {
+      "text": "$txt3[到浙大来做什么？]",
+      "area": [10, 230, 294, 280],
+      "minSize": 15,
+      "maxSize": 40
+    },
+    {
+      "text": "$txt4[混！]",
+      "area": [316, 230, 602, 280],
+      "minSize": 15,
+      "maxSize": 40
+    },
+    {
+      "text": "$txt5[将来毕业后要做什么样的人？]",
+      "area": [10, 455, 294, 505],
+      "minSize": 15,
+      "maxSize": 40
+    },
+    {
+      "text": "$txt6[混混！]",
+      "area": [316, 455, 602, 505],
+      "minSize": 15,
+      "maxSize": 40
+    }
+  ],
+  "alias": ["口号"]
+}

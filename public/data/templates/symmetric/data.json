@@ -1,0 +1,96 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 0)",
+      "pos": ["0", "0", "width / 2", "height"],
+      "crop": [0, 0, 50, 100],
+      "cropType": "PERCENT",
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 0)",
+      "pos": ["width / 2", "0", "width / 2", "height"],
+      "crop": [0, 0, 50, 100],
+      "cropType": "PERCENT",
+      "style": ["MIRROR"],
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 1)",
+      "pos": ["width / 2", "0", "width / 2", "height"],
+      "crop": [50, 0, 100, 100],
+      "cropType": "PERCENT",
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 1)",
+      "pos": ["0", "0", "width / 2", "height"],
+      "crop": [50, 0, 100, 100],
+      "cropType": "PERCENT",
+      "style": ["MIRROR"],
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 2)",
+      "pos": ["0", "0", "width", "height / 2"],
+      "crop": [0, 0, 100, 50],
+      "cropType": "PERCENT",
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 2)",
+      "pos": ["0", "height / 2", "width", "height / 2"],
+      "crop": [0, 0, 100, 50],
+      "cropType": "PERCENT",
+      "style": ["FLIP"],
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 3)",
+      "pos": ["0", "height / 2", "width", "height / 2"],
+      "crop": [0, 50, 100, 100],
+      "cropType": "PERCENT",
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_direction, 3)",
+      "pos": ["0", "0", "width", "height / 2"],
+      "crop": [0, 50, 100, 100],
+      "cropType": "PERCENT",
+      "style": ["FLIP"],
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "if(lt(option_direction, 2), avatar0Width * 2, avatar4Width)",
+      "if(lt(option_direction, 2), avatar0Height, avatar4Height * 2)"
+    ],
+    "color": "#ffffff00"
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "direction",
+      "label": "对称方向",
+      "default": "left",
+      "choices": [
+        { "value": "left", "label": "左" },
+        { "value": "right", "label": "右" },
+        { "value": "top", "label": "上" },
+        { "value": "bottom", "label": "下" }
+      ]
+    }
+  ],
+  "alias": ["对称", "左对称", "右对称", "上对称", "下对称", "左右对称", "上下对称"]
+}

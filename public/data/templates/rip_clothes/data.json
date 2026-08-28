@@ -1,0 +1,15 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [0, 0, 480, 270],
+      "preFitSize": [480, 270],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "delay": 100,
+  "alias": ["撕衣服"]
+}

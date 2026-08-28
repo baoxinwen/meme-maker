@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [184, 268, 150, 150],
+      "square": true,
+      "round": true,
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["杰瑞盯"]
+}

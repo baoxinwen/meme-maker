@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我控制不住自己啊]",
+      "area": [125, 307, 784, 843],
+      "minSize": 80,
+      "maxSize": 150,
+      "font": "MiSans",
+      "color": "#51201b",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["宁宁举牌"]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [200, 15, 150, 150],
+      "fit": "COVER"
+    }
+  ],
+  "text": [
+    {
+      "text": "你怎么跟",
+      "area": [10, 30, 185, 160],
+      "minSize": 40,
+      "maxSize": 40,
+      "align": "RIGHT"
+    },
+    {
+      "text": "一样",
+      "area": [365, 30, 460, 160],
+      "minSize": 40,
+      "maxSize": 40,
+      "align": "LEFT"
+    }
+  ],
+  "background": {
+    "size": [470, 180],
+    "color": "#ffffff"
+  },
+  "alias": ["一样"]
+}

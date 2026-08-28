@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [0, 650, 586, 430],
+      "fit": "CONTAIN",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["你的跨年"]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[不买华为不是]",
+      "area": [20, 560, 350, 690],
+      "minSize": 50,
+      "maxSize": 100,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 10,
+      "align": "RIGHT"
+    },
+    {
+      "text": "$txt2[人]",
+      "area": [610, 540, 917, 670],
+      "minSize": 50,
+      "maxSize": 100,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 10,
+      "align": "LEFT"
+    }
+  ],
+  "alias": ["吴京中国"]
+}

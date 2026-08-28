@@ -1,0 +1,24 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "USER",
+      "input": 0,
+      "pos": [[100, 43, 55, 55], [110, 46, 55, 55], [101, 40, 55, 55]],
+      "round": true,
+      "preFitSize": [55, 55],
+      "fit": "FILL"
+    },
+    {
+      "type": "USER",
+      "input": 1,
+      "pos": [[99, 136, 45, 45], [99, 136, 45, 45], [89, 140, 45, 45]],
+      "round": true,
+      "preFitSize": [45, 45],
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "delay": 100,
+  "alias": ["揍"]
+}

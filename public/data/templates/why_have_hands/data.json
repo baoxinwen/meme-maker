@@ -1,0 +1,77 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [1001, 668, 250, 250],
+      "square": true,
+      "preFitSize": [250, 250],
+      "fit": "FILL",
+      "preRotate": -15,
+      "preRotateMode": "CROP",
+      "avatarOnTop": false
+    },
+    {
+      "type": "FROM",
+      "pos": [275, 1100, 250, 170],
+      "fit": "COVER",
+      "avatarOnTop": false
+    },
+    {
+      "type": "FROM",
+      "pos": [350, 670, 250, 250],
+      "fit": "FILL",
+      "round": true
+    },
+    {
+      "type": "FROM",
+      "pos": [1100, 1060, 300, 400],
+      "fit": "CONTAIN"
+    }
+  ],
+  "text": [
+    {
+      "text": "摸摸$option[name]！",
+      "area": [75, 825, 675, 925],
+      "minSize": 30,
+      "maxSize": 70,
+      "style": "BOLD",
+      "angle": 15,
+      "origin": "CENTER"
+    },
+    {
+      "text": "托托$option[name]！",
+      "area": [840, 960, 1440, 1060],
+      "minSize": 30,
+      "maxSize": 70,
+      "style": "BOLD",
+      "align": "CENTER"
+    },
+    {
+      "text": "赞美$option[name]！",
+      "area": [50, 1325, 650, 1475],
+      "minSize": 30,
+      "maxSize": 90,
+      "style": "BOLD",
+      "align": "CENTER"
+    },
+    {
+      "text": "为$option[name]奉献所有财产！",
+      "area": [700, 1340, 1075, 1490],
+      "minSize": 30,
+      "maxSize": 70,
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "name",
+      "label": "名字",
+      "default": "TA",
+      "maxLength": 20
+    }
+  ],
+  "alias": ["为什么要有手"]
+}

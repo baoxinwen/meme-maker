@@ -1,0 +1,23 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [106, 72, 305, 235],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[阿尼亚喜欢这个]",
+      "area": [5, 440, 470, 490],
+      "minSize": 20,
+      "maxSize": 40,
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 4
+    }
+  ],
+  "alias": ["阿尼亚喜欢", "阿尼亚"]
+}

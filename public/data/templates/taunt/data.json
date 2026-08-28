@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [245, 245, 230, 230],
+      "square": true,
+      "avatarOnTop": true
+    }
+  ],
+  "text": [],
+  "alias": ["嘲讽"]
+}

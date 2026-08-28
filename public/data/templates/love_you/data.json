@@ -1,0 +1,17 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [
+        [68, 65, 70, 70],
+        [63, 59, 80, 80]
+      ],
+      "square": true,
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "delay": 200,
+  "alias": ["永远爱你"]
+}

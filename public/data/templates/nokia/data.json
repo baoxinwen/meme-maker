@@ -1,0 +1,27 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[无内鬼，继续交易]",
+      "area": [270, 320, 1000, 770],
+      "minSize": 40,
+      "maxSize": 70,
+      "font": "MiSans",
+      "angle": 9.3,
+      "origin": "CENTER"
+    },
+    {
+      "text": "$txt2[8/900]",
+      "area": [270, 210, 1000, 300],
+      "minSize": 40,
+      "maxSize": 70,
+      "font": "MiSans",
+      "color": "#81d4fa",
+      "angle": 9.3,
+      "origin": "CENTER",
+      "align": "RIGHT"
+    }
+  ],
+  "alias": ["诺基亚", "有内鬼"]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[谢谢参与]",
+      "area": [80, 160, 360, 290],
+      "minSize": 30,
+      "maxSize": 80,
+      "color": "#ffffff",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [440, 325],
+    "foregroundLayers": [
+      {
+        "asset": "mask.png"
+      }
+    ]
+  },
+  "alias": ["刮刮乐"]
+}

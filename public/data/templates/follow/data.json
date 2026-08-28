@@ -1,0 +1,31 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [50, 50, 200, 200],
+      "fit": "FILL",
+      "round": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[男同]",
+      "area": [300, 45, 670, 140],
+      "minSize": 30,
+      "maxSize": 60
+    },
+    {
+      "text": "关注了你",
+      "area": [300, 145, 670, 240],
+      "minSize": 30,
+      "maxSize": 60,
+      "color": "#808080"
+    }
+  ],
+  "background": {
+    "size": [700, 300],
+    "color": "#ffffff"
+  },
+  "alias": ["关注"]
+}

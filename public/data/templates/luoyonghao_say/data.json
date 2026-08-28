@@ -1,0 +1,17 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[又不是不能用]",
+      "area": [88, 250, 420, 356],
+      "minSize": 10,
+      "maxSize": 50,
+      "font": "MiSans",
+      "angle": -2,
+      "origin": "CENTER",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["罗永浩说"]
+}

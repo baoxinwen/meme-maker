@@ -1,0 +1,39 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 440, 500, 640],
+      "fit": "CONTAIN",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [1080, 1080],
+    "color": "#ffffff00",
+    "layers": [
+      {
+        "asset": "arona.png",
+        "when": "eq(option_character, 0)"
+      },
+      {
+        "asset": "plana.png",
+        "when": "eq(option_character, 1)"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "character",
+      "label": "角色",
+      "default": "arona",
+      "choices": [
+        { "value": "arona", "label": "阿罗娜" },
+        { "value": "plana", "label": "普拉娜" }
+      ]
+    }
+  ],
+  "alias": ["压岁钱不要交给"]
+}

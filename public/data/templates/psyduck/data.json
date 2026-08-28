@@ -1,0 +1,200 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 0)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[18,53],[172,42],[179,131],[38,146]]
+    },
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 1)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[15,47],[168,38],[174,127],[35,139]]
+    },
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 2)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[14,30],[162,23],[170,112],[35,120]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 4)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[308,18],[441,35],[422,122],[298,102]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 5)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[311,30],[441,57],[423,143],[298,113]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 6)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[311,26],[441,53],[423,139],[298,109]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 7)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[311,30],[441,57],[423,143],[298,113]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 8)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[315,20],[445,47],[427,133],[302,103]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 9)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[313,24],[441,47],[420,126],[300,106]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 10)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[312,22],[439,44],[417,122],[299,104]]
+    },
+    {
+      "text": "$option[right]",
+      "when": "eq(frameIndex, 11)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[312,23],[431,39],[412,112],[303,103]]
+    },
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 13)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[35,49],[187,36],[193,125],[52,145]]
+    },
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 14)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[31,42],[183,29],[189,118],[48,138]]
+    },
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 15)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[45,50],[194,33],[200,123],[62,153]]
+    },
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 16)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[40,41],[192,27],[196,118],[57,142]]
+    },
+    {
+      "text": "$option[left]",
+      "when": "eq(frameIndex, 17)",
+      "area": [5, 5, 150, 95],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER",
+      "deformSize": [155, 100],
+      "deform": [[35,40],[189,28],[193,118],[52,137]]
+    }
+  ],
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "left",
+      "label": "左侧文字",
+      "default": "来份",
+      "maxLength": 20
+    },
+    {
+      "type": "TEXT",
+      "key": "right",
+      "label": "右侧文字",
+      "default": "涩图",
+      "maxLength": 20
+    }
+  ],
+  "delay": 200,
+  "alias": ["可达鸭"]
+}

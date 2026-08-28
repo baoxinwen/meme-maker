@@ -1,0 +1,25 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "posType": "DEFORM",
+      "pos": [[507, 0], [940, 351], [383, 625], [0, 256], [201, 201]],
+      "preFitSize": [640, 640],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[这是十二生肖中的鸡]",
+      "area": [0, 900, 1440, 1080],
+      "minSize": 40,
+      "maxSize": 80,
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 10
+    }
+  ],
+  "alias": ["这是鸡", "🐔", "符咒"]
+}

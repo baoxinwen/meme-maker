@@ -1,0 +1,41 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "USER",
+      "input": 1,
+      "fallbackInput": 0,
+      "pos": [-5, 355, 508, 508],
+      "square": true,
+      "preFitSize": [385, 385],
+      "preRotate": -24,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    },
+    {
+      "type": "USER",
+      "input": 1,
+      "fallbackInput": 0,
+      "pos": [649, 310, 451, 451],
+      "square": true,
+      "preFitSize": [385, 385],
+      "preRotate": 11,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    },
+    {
+      "type": "USER",
+      "input": 0,
+      "optional": true,
+      "visibleWhenInput": 1,
+      "pos": [413, 422, 208, 208],
+      "round": true,
+      "preFitSize": [208, 208],
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "alias": ["撕"]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "posType": "DEFORM",
+      "pos": [[429, 130], [633, 79], [640, 226], [446, 296], [0, 0]],
+      "deformSize": [250, 180],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["凉宫春日举"]
+}

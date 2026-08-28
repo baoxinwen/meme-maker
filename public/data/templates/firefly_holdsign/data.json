@@ -1,0 +1,386 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 0)",
+      "area": [10, 10, 290, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [300, 200],
+      "deform": [[144,388],[420,322],[463,500],[187,566]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 1)",
+      "area": [10, 10, 290, 240],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [300, 250],
+      "deform": [[-46,33],[266,-50],[302,193],[0,264]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 2)",
+      "area": [10, 10, 290, 140],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [300, 150],
+      "deform": [[106,351],[392,351],[382,500],[118,500]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 3)",
+      "area": [10, 10, 240, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [250, 200],
+      "deform": [[276,-6],[533,43],[501,233],[245,184]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 4)",
+      "area": [10, 10, 490, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [500, 200],
+      "deform": [[0,0],[492,0],[462,198],[25,198]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 5)",
+      "area": [10, 10, 340, 140],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [350, 150],
+      "deform": [[74,411],[419,359],[438,502],[105,552]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 6)",
+      "area": [10, 10, 260, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [270, 200],
+      "deform": [[262,-9],[536,40],[501,236],[231,183]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 7)",
+      "area": [10, 10, 340, 140],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [350, 150],
+      "deform": [[64,384],[409,340],[422,493],[98,537]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 8)",
+      "area": [10, 10, 220, 90],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [230, 100],
+      "deform": [[67,261],[300,299],[279,393],[57,360]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 9)",
+      "area": [10, 10, 230, 140],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [240, 150],
+      "deform": [[-24,12],[211,-20],[230,126],[0,162]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 10)",
+      "area": [10, 10, 220, 130],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [230, 140],
+      "deform": [[173,-35],[400,33],[360,168],[133,98]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 11)",
+      "area": [10, 10, 159, 114],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [169, 124],
+      "deform": [[107,236],[276,236],[276,360],[107,360]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 12)",
+      "area": [10, 10, 200, 130],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [210, 140],
+      "deform": [[180,-7],[383,25],[360,165],[156,129]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 13)",
+      "area": [10, 10, 240, 113],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [250, 123],
+      "deform": [[53,240],[303,237],[303,360],[53,360]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 14)",
+      "area": [10, 10, 190, 130],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [200, 140],
+      "deform": [[197,-9],[390,31],[360,168],[168,126]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 15)",
+      "area": [10, 10, 246, 86],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [256, 96],
+      "deform": [[50,264],[306,264],[306,360],[50,360]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 16)",
+      "area": [10, 10, 110, 190],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [120, 200],
+      "deform": [[290,130],[414,197],[291,399],[174,325]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 17)",
+      "area": [10, 10, 240, 130],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [250, 140],
+      "deform": [[-42,50],[202,-27],[246,105],[0,183]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 18)",
+      "area": [10, 10, 220, 120],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [230, 130],
+      "deform": [[-64,68],[165,-42],[230,84],[0,203]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 19)",
+      "area": [10, 10, 173, 123],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [183, 133],
+      "deform": [[0,227],[183,236],[183,360],[0,360]]
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(option_number, 20)",
+      "area": [10, 10, 245, 96],
+      "minSize": 30,
+      "maxSize": 80,
+      "font": "MiSans",
+      "color": "#3b0b07",
+      "align": "CENTER",
+      "deformSize": [255, 106],
+      "deform": [[52,258],[306,254],[307,360],[50,360]]
+    }
+  ],
+  "background": {
+    "size": ["if(lt(option_number, 8), 500, 360)", "if(lt(option_number, 8), 500, 360)"],
+    "layers": [
+      {
+        "asset": "01.png",
+        "when": "eq(option_number, 0)"
+      },
+      {
+        "asset": "02.png",
+        "when": "eq(option_number, 1)"
+      },
+      {
+        "asset": "03.png",
+        "when": "eq(option_number, 2)"
+      },
+      {
+        "asset": "04.png",
+        "when": "eq(option_number, 3)"
+      },
+      {
+        "asset": "05.png",
+        "when": "eq(option_number, 4)"
+      },
+      {
+        "asset": "06.png",
+        "when": "eq(option_number, 5)"
+      },
+      {
+        "asset": "07.png",
+        "when": "eq(option_number, 6)"
+      },
+      {
+        "asset": "08.png",
+        "when": "eq(option_number, 7)"
+      },
+      {
+        "asset": "09.png",
+        "when": "eq(option_number, 8)"
+      },
+      {
+        "asset": "10.png",
+        "when": "eq(option_number, 9)"
+      },
+      {
+        "asset": "11.png",
+        "when": "eq(option_number, 10)"
+      },
+      {
+        "asset": "12.png",
+        "when": "eq(option_number, 11)"
+      },
+      {
+        "asset": "13.png",
+        "when": "eq(option_number, 12)"
+      },
+      {
+        "asset": "14.png",
+        "when": "eq(option_number, 13)"
+      },
+      {
+        "asset": "15.png",
+        "when": "eq(option_number, 14)"
+      },
+      {
+        "asset": "16.png",
+        "when": "eq(option_number, 15)"
+      },
+      {
+        "asset": "17.png",
+        "when": "eq(option_number, 16)"
+      },
+      {
+        "asset": "18.png",
+        "when": "eq(option_number, 17)"
+      },
+      {
+        "asset": "19.png",
+        "when": "eq(option_number, 18)"
+      },
+      {
+        "asset": "20.png",
+        "when": "eq(option_number, 19)"
+      },
+      {
+        "asset": "21.png",
+        "when": "eq(option_number, 20)"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "message",
+      "label": "文字",
+      "default": "我超爱你",
+      "maxLength": 30
+    },
+    {
+      "type": "SELECT",
+      "key": "number",
+      "label": "图片",
+      "default": "1",
+      "choices": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" },
+        { "value": "3", "label": "3" },
+        { "value": "4", "label": "4" },
+        { "value": "5", "label": "5" },
+        { "value": "6", "label": "6" },
+        { "value": "7", "label": "7" },
+        { "value": "8", "label": "8" },
+        { "value": "9", "label": "9" },
+        { "value": "10", "label": "10" },
+        { "value": "11", "label": "11" },
+        { "value": "12", "label": "12" },
+        { "value": "13", "label": "13" },
+        { "value": "14", "label": "14" },
+        { "value": "15", "label": "15" },
+        { "value": "16", "label": "16" },
+        { "value": "17", "label": "17" },
+        { "value": "18", "label": "18" },
+        { "value": "19", "label": "19" },
+        { "value": "20", "label": "20" },
+        { "value": "21", "label": "21" }
+      ]
+    }
+  ],
+  "alias": ["流萤举牌"]
+}

@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我就是饿死]",
+      "when": "and(gte(frameIndex, 0), lt(frameIndex, 9))",
+      "area": [5, 146, 293, 179],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[死外边 从这里跳下去]",
+      "when": "and(gte(frameIndex, 12), lt(frameIndex, 24))",
+      "area": [5, 146, 293, 179],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[不会吃你们一点东西]",
+      "when": "and(gte(frameIndex, 25), lt(frameIndex, 35))",
+      "area": [5, 146, 293, 179],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[真香]",
+      "when": "and(gte(frameIndex, 37), lt(frameIndex, 48))",
+      "area": [5, 146, 293, 179],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 125,
+  "alias": ["王境泽", "真香"],
+  "previewFrame": 40
+}

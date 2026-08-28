@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[开银趴不喊我是吧]",
+      "area": [228, 11, 340, 164],
+      "minSize": 20,
+      "maxSize": 80
+    }
+  ],
+  "alias": ["哆啦A梦说"]
+}

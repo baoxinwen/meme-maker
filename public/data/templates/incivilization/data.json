@@ -1,0 +1,25 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "posType": "DEFORM",
+      "pos": [[137, 171], [291, 151], [301, 304], [159, 331], [0, 0]],
+      "deformSize": [150, 150],
+      "fit": "FILL",
+      "round": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[你刚才说的话不是很礼貌！]",
+      "area": [57, 42, 528, 117],
+      "minSize": 20,
+      "maxSize": 50,
+      "font": "MiSans",
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["不文明"]
+}

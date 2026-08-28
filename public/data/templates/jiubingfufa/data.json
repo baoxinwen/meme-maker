@@ -1,0 +1,28 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [32, 226, 120, 120],
+      "preFitSize": [120, 120],
+      "fit": "FILL",
+      "round": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[此乃旧病复发也]",
+      "when": "gt(frameIndex, 9)",
+      "area": [0, 0, 290, 160],
+      "minSize": 20,
+      "maxSize": 32,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 3,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 60,
+  "alias": ["旧病复发"]
+}

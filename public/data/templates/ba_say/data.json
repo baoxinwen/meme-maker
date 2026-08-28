@@ -1,0 +1,108 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[那我问你]",
+      "area": [
+        "if(eq(option_position, 0), 500, 60)",
+        0,
+        "if(eq(option_position, 0), 1020, 580)",
+        200
+      ],
+      "minSize": 20,
+      "maxSize": 100,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [1080, 1080],
+    "layers": [
+      {
+        "asset": "arisu-right.png",
+        "when": "and(eq(option_character, 0), eq(option_position, 0))"
+      },
+      {
+        "asset": "arisu-left.png",
+        "when": "and(eq(option_character, 0), eq(option_position, 1))"
+      },
+      {
+        "asset": "izuna-right.png",
+        "when": "and(eq(option_character, 1), eq(option_position, 0))"
+      },
+      {
+        "asset": "izuna-left.png",
+        "when": "and(eq(option_character, 1), eq(option_position, 1))"
+      },
+      {
+        "asset": "key-right.png",
+        "when": "and(eq(option_character, 2), eq(option_position, 0))"
+      },
+      {
+        "asset": "key-left.png",
+        "when": "and(eq(option_character, 2), eq(option_position, 1))"
+      },
+      {
+        "asset": "kokona-right.png",
+        "when": "and(eq(option_character, 3), eq(option_position, 0))"
+      },
+      {
+        "asset": "kokona-left.png",
+        "when": "and(eq(option_character, 3), eq(option_position, 1))"
+      },
+      {
+        "asset": "mari-right.png",
+        "when": "and(eq(option_character, 4), eq(option_position, 0))"
+      },
+      {
+        "asset": "mari-left.png",
+        "when": "and(eq(option_character, 4), eq(option_position, 1))"
+      },
+      {
+        "asset": "sena-right.png",
+        "when": "and(eq(option_character, 5), eq(option_position, 0))"
+      },
+      {
+        "asset": "sena-left.png",
+        "when": "and(eq(option_character, 5), eq(option_position, 1))"
+      },
+      {
+        "asset": "yuuka-right.png",
+        "when": "and(eq(option_character, 6), eq(option_position, 0))"
+      },
+      {
+        "asset": "yuuka-left.png",
+        "when": "and(eq(option_character, 6), eq(option_position, 1))"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "character",
+      "label": "角色",
+      "default": "arisu",
+      "choices": [
+        { "value": "arisu", "label": "arisu" },
+        { "value": "izuna", "label": "izuna" },
+        { "value": "key", "label": "key" },
+        { "value": "kokona", "label": "kokona" },
+        { "value": "mari", "label": "mari" },
+        { "value": "sena", "label": "sena" },
+        { "value": "yuuka", "label": "yuuka" }
+      ]
+    },
+    {
+      "type": "SELECT",
+      "key": "position",
+      "label": "消息框位置",
+      "default": "right",
+      "choices": [
+        { "value": "right", "label": "右侧" },
+        { "value": "left", "label": "左侧" }
+      ]
+    }
+  ],
+  "alias": ["ba说"]
+}

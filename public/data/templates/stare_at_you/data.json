@@ -1,0 +1,40 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [0, 100, 400, 300],
+      "fit": "COVER",
+      "avatarOnTop": true
+    },
+    {
+      "type": "TO",
+      "pos": [160, 20, 80, 60],
+      "fit": "COVER",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [
+    {
+      "text": "我雇了一只",
+      "area": [0, 0, 150, 100],
+      "minSize": 25,
+      "maxSize": 25,
+      "align": "RIGHT",
+      "style": "BOLD"
+    },
+    {
+      "text": "来盯着👁你",
+      "area": [250, 0, 400, 100],
+      "minSize": 25,
+      "maxSize": 25,
+      "align": "LEFT",
+      "style": "BOLD"
+    }
+  ],
+  "background": {
+    "color": "#ffffff",
+    "size": [400, 400]
+  },
+  "alias": ["盯着你"]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [268, 344, 150, 150],
+      "square": true,
+      "round": true,
+      "avatarOnTop": true
+    }
+  ],
+  "text": [],
+  "alias": ["坐得住"]
+}

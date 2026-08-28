@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[你的假期余额不足]",
+      "area": [10, 250, 430, 300],
+      "minSize": 15,
+      "maxSize": 40,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["低语"]
+}

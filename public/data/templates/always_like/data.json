@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [35, 55, 350, 400],
+      "fit": "CONTAIN",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[我永远喜欢TA]",
+      "area": [20, 470, 810, 570],
+      "minSize": 30,
+      "maxSize": 70,
+      "style": "BOLD"
+    }
+  ],
+  "alias": ["我永远喜欢", "永远喜欢"]
+}

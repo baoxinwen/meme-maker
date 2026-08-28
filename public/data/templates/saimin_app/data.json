@@ -1,0 +1,26 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        0,
+        "if(gt(avatar0Width, avatar0Height), floor(400 * avatar0Width / avatar0Height), 398)",
+        "if(gt(avatar0Width, avatar0Height), 400, floor(398 * avatar0Height / avatar0Width))"
+      ],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "if(gt(avatar0Width, avatar0Height), floor(400 * avatar0Width / avatar0Height), 398)",
+      "if(gt(avatar0Width, avatar0Height), 400, floor(398 * avatar0Height / avatar0Width))"
+    ],
+    "imagePos": [0, "height - imageHeight"]
+  },
+  "delay": 30,
+  "alias": ["催眠app"]
+}

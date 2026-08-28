@@ -1,0 +1,53 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [50, 80, 280, 280],
+      "fit": "COVER"
+    }
+  ],
+  "text": [
+    {
+      "text": "$option[name]",
+      "area": [430, 70, 1500, 155],
+      "minSize": 40,
+      "maxSize": 65,
+      "color": "#e3ffc2"
+    },
+    {
+      "text": "正在玩",
+      "area": [430, 170, 1500, 250],
+      "minSize": 40,
+      "maxSize": 62,
+      "color": "#d1d1c0"
+    },
+    {
+      "text": "$txt1[黑神话：悟空]",
+      "area": [430, 275, 1700, 365],
+      "minSize": 40,
+      "maxSize": 65,
+      "color": "#91c257"
+    }
+  ],
+  "background": {
+    "size": [1800, 440],
+    "color": "#14161f",
+    "layers": [
+      {
+        "asset": "logo.png",
+        "pos": [930, -370]
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "name",
+      "label": "好友名",
+      "default": "好友",
+      "maxLength": 30
+    }
+  ],
+  "alias": ["steam消息"]
+}

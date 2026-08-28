@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "posType": "DEFORM",
+      "pos": [[0, 1], [275, 0], [273, 202], [2, 216], [50, 188]],
+      "deformSize": [270, 200],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["泉此方看"]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[你那叫喜欢吗？]",
+      "when": "and(gte(frameIndex, 0), lt(frameIndex, 16))",
+      "area": [5, 110, 271, 153],
+      "minSize": 12,
+      "maxSize": 18,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[你那是馋她身子]",
+      "when": "and(gte(frameIndex, 16), lt(frameIndex, 31))",
+      "area": [5, 110, 271, 153],
+      "minSize": 12,
+      "maxSize": 18,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[你下贱！]",
+      "when": "and(gte(frameIndex, 33), lt(frameIndex, 40))",
+      "area": [5, 110, 271, 153],
+      "minSize": 12,
+      "maxSize": 18,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 100,
+  "alias": ["馋身子"],
+  "previewFrame": 20
+}

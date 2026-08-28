@@ -1,0 +1,46 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "square": true,
+      "preFitSize": [500, 500],
+      "filter": [
+        {
+          "type": "COLORIZE",
+          "color": [78, 114, 184]
+        }
+      ],
+      "pos": [0, 0, 500, 500],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "群\n青",
+      "area": [400, 40, 480, 280],
+      "minSize": 80,
+      "maxSize": 80,
+      "color": "#ffffff",
+      "strokeColor": "#4e72b8",
+      "strokeSize": 6,
+      "align": "CENTER"
+    },
+    {
+      "text": "YOASOBI",
+      "area": [200, 270, 480, 350],
+      "minSize": 40,
+      "maxSize": 40,
+      "color": "#ffffff",
+      "strokeColor": "#4e72b8",
+      "strokeSize": 5,
+      "align": "RIGHT"
+    }
+  ],
+  "background": {
+    "size": [500, 500],
+    "color": "#ffffff00"
+  },
+  "alias": ["群青"]
+}

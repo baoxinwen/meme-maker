@@ -1,0 +1,17 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [134, 134, "avatar0Width", "avatar0Height"],
+      "square": true,
+      "preFitSize": [250, 250],
+      "preRotate": 25,
+      "preRotateMode": "EXPAND",
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["旅行伙伴觉醒"]
+}

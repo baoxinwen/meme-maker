@@ -1,0 +1,16 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "posType": "DEFORM",
+      "pos": [[0, 100], [290, 0], [290, 370], [0, 335], [258, -12]],
+      "deformSize": [400, 350],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "delay": 200,
+  "alias": ["汤姆嘲笑"]
+}

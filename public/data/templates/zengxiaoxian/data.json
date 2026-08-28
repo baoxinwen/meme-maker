@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[平时你打电子游戏吗]",
+      "when": "and(gte(frameIndex, 3), lt(frameIndex, 15))",
+      "area": [5, 148, 295, 181],
+      "minSize": 12,
+      "maxSize": 21,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[偶尔]",
+      "when": "and(gte(frameIndex, 24), lt(frameIndex, 30))",
+      "area": [5, 148, 295, 181],
+      "minSize": 12,
+      "maxSize": 21,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[星际还是魔兽]",
+      "when": "and(gte(frameIndex, 30), lt(frameIndex, 46))",
+      "area": [5, 148, 295, 181],
+      "minSize": 12,
+      "maxSize": 21,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[连连看]",
+      "when": "and(gte(frameIndex, 56), lt(frameIndex, 63))",
+      "area": [5, 148, 295, 181],
+      "minSize": 12,
+      "maxSize": 21,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 125,
+  "alias": ["曾小贤"],
+  "previewFrame": 58
+}

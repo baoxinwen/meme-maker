@@ -1,0 +1,49 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, 300, 300],
+      "square": true,
+      "preFitSize": [300, 300],
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "pos": [0, 300, 300, 300],
+      "square": true,
+      "preFitSize": [300, 300],
+      "preRotate": 90,
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "pos": [300, 300, 300, 300],
+      "square": true,
+      "preFitSize": [300, 300],
+      "preRotate": 180,
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "pos": [300, 0, 300, 300],
+      "square": true,
+      "preFitSize": [300, 300],
+      "preRotate": 270,
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [600, 600],
+    "color": "#ffffff00",
+    "length": 5
+  },
+  "frameTransform": {
+    "type": "ROTATE_CROP",
+    "angle": [0, 18, 36, 54, 72],
+    "crop": [50, 50, 500, 500]
+  },
+  "delay": 50,
+  "alias": ["风车转"]
+}

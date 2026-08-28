@@ -1,0 +1,26 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [
+        [160, 121, 76, 76],
+        [172, 124, 69, 69],
+        [208, 166, 52, 52]
+      ],
+      "square": true,
+      "round": true,
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[怎么说话的你]",
+      "area": [175, 28, 316, 82],
+      "minSize": 10,
+      "maxSize": 50
+    }
+  ],
+  "delay": 50,
+  "alias": ["拍头"]
+}

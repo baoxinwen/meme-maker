@@ -1,0 +1,59 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "when": "eq(option_mode, 0)",
+      "pos": [16, 104, 440, 440],
+      "preFitSize": [440, 440],
+      "fit": "FILL",
+      "round": true,
+      "preRotate": -15,
+      "preRotateMode": "CROP"
+    },
+    {
+      "type": "FROM",
+      "when": "eq(option_mode, 1)",
+      "posType": "DEFORM",
+      "pos": [[496, 100], [710, 254], [428, 646], [214, 492], [0, 0]],
+      "deformSize": [496, 546],
+      "fit": "FILL",
+      "round": true
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [690, 690],
+    "color": "#ffffff00",
+    "layers": [
+      {
+        "asset": "1.png",
+        "when": "eq(option_mode, 1)"
+      }
+    ],
+    "foregroundLayers": [
+      {
+        "asset": "0.png",
+        "when": "eq(option_mode, 0)"
+      },
+      {
+        "asset": "2.png",
+        "when": "eq(option_mode, 1)",
+        "pos": [-85, 20]
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "SELECT",
+      "key": "mode",
+      "label": "小丑位置",
+      "default": "front",
+      "choices": [
+        { "value": "front", "label": "在前" },
+        { "value": "behind", "label": "在后" }
+      ]
+    }
+  ],
+  "alias": ["小丑面具"]
+}

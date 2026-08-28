@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "USER",
+      "input": 0,
+      "pos": [349, 0, 333, 360],
+      "preFitSize": [333, 360],
+      "fit": "COVER"
+    },
+    {
+      "type": "USER",
+      "input": 1,
+      "pos": [349, 361, 333, 360],
+      "preFitSize": [333, 360],
+      "fit": "COVER"
+    }
+  ],
+  "text": [],
+  "alias": ["白天黑夜", "白天晚上"]
+}

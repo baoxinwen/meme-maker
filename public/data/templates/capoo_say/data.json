@@ -1,0 +1,75 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$option[message]",
+      "when": "eq(frameIndex, 3)",
+      "area": [74, 112, 119, 157],
+      "minSize": 20,
+      "maxSize": 80,
+      "font": "MiSans",
+      "angle": -25,
+      "origin": "CENTER",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(frameIndex, 4)",
+      "area": [41, 42, 114, 115],
+      "minSize": 20,
+      "maxSize": 80,
+      "font": "MiSans",
+      "angle": -17,
+      "origin": "CENTER",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(frameIndex, 5)",
+      "area": [43, 36, 123, 116],
+      "minSize": 20,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(frameIndex, 6)",
+      "area": [43, 30, 123, 110],
+      "minSize": 20,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(frameIndex, 7)",
+      "area": [44, 30, 122, 108],
+      "minSize": 20,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[message]",
+      "when": "eq(frameIndex, 8)",
+      "area": [44, 29, 122, 107],
+      "minSize": 20,
+      "maxSize": 80,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "message",
+      "label": "文字",
+      "default": "寄",
+      "maxLength": 10
+    }
+  ],
+  "delay": 100,
+  "alias": ["咖波说"]
+}

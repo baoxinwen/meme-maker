@@ -1,0 +1,34 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        0,
+        "if(gt(1500 * avatar0Height, 1080 * avatar0Width), 1500, floor(1080 * avatar0Width / avatar0Height))",
+        "if(gt(1500 * avatar0Height, 1080 * avatar0Width), floor(1500 * avatar0Height / avatar0Width), 1080)"
+      ],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "if(gt(1500 * avatar0Height, 1080 * avatar0Width), 1500, floor(1080 * avatar0Width / avatar0Height))",
+      "if(gt(1500 * avatar0Height, 1080 * avatar0Width), floor(1500 * avatar0Height / avatar0Width), 1080)"
+    ],
+    "layers": [
+      {
+        "asset": "0.png",
+        "pos": [0, 0]
+      },
+      {
+        "asset": "1.png",
+        "pos": ["width - imageWidth", 0]
+      }
+    ]
+  },
+  "alias": ["结婚申请", "结婚登记", "结婚"]
+}

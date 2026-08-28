@@ -1,0 +1,40 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 0, 681, 692],
+      "fit": "COVER"
+    }
+  ],
+  "text": [
+    {
+      "text": "我推的$option[name]",
+      "area": [9, 15, 672, 190],
+      "minSize": 60,
+      "maxSize": 150,
+      "font": "MiSans",
+      "strokeColor": "#ffffff",
+      "strokeSize": 8,
+      "align": "CENTER"
+    }
+  ],
+  "background": {
+    "size": [681, 851],
+    "foregroundLayers": [
+      {
+        "asset": "foreground.png"
+      }
+    ]
+  },
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "name",
+      "label": "我推的名字",
+      "default": "网友",
+      "maxLength": 20
+    }
+  ],
+  "alias": ["我推的网友"]
+}

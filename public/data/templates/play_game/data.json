@@ -1,0 +1,26 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "posType": "DEFORM",
+      "pos": [[161, 122], [388, 117], [377, 267], [161, 282], [0, 0]],
+      "deformSize": [230, 160],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[来玩休闲游戏啊]",
+      "area": [20, 433, 506, 503],
+      "minSize": 25,
+      "maxSize": 40,
+      "font": "MiSans",
+      "strokeColor": "#ffffff",
+      "strokeSize": 4,
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["玩游戏", "屏幕"]
+}

@@ -1,0 +1,117 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[好啊]",
+      "when": "and(gte(frameIndex, 11), lt(frameIndex, 14))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[别说我是一等良民]",
+      "when": "and(gte(frameIndex, 27), lt(frameIndex, 38))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[就算你们真的想要诬告我]",
+      "when": "and(gte(frameIndex, 42), lt(frameIndex, 61))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[我有的是钱请律师帮我打官司]",
+      "when": "and(gte(frameIndex, 63), lt(frameIndex, 81))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt5[我想我根本不用坐牢]",
+      "when": "and(gte(frameIndex, 82), lt(frameIndex, 95))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt6[有钱了不起啊]",
+      "when": "and(gte(frameIndex, 96), lt(frameIndex, 105))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt7[Sorry，有钱真的了不起]",
+      "when": "and(gte(frameIndex, 111), lt(frameIndex, 131))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt8[不过我想你不会明白这种感觉]",
+      "when": "and(gte(frameIndex, 145), lt(frameIndex, 157))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt9[不明白，不明白]",
+      "when": "and(gte(frameIndex, 157), lt(frameIndex, 167))",
+      "area": [5, 130, 295, 163],
+      "minSize": 12,
+      "maxSize": 19,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 125,
+  "alias": ["为所欲为"],
+  "previewFrame": 150
+}

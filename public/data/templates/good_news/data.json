@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[喜报]",
+      "area": [50, 100, 550, 350],
+      "minSize": 30,
+      "maxSize": 60,
+      "color": "#ee0000",
+      "strokeColor": "#ffff99",
+      "strokeSize": 6
+    }
+  ],
+  "alias": ["喜报"]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我没有说过这句话]",
+      "area": [40, 280, 440, 380],
+      "minSize": 30,
+      "maxSize": 40,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "align": "CENTER"
+    },
+    {
+      "text": "——鲁迅",
+      "pos": [320, 400],
+      "size": 30,
+      "font": "MiSans",
+      "color": "#ffffff"
+    }
+  ],
+  "alias": ["鲁迅说", "鲁迅说过"]
+}

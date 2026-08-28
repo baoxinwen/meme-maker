@@ -1,0 +1,81 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[没有钱啊 肯定要做的啊]",
+      "when": "and(gte(frameIndex, 0), lt(frameIndex, 15))",
+      "area": [5, 144, 291, 177],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[不做的话没有钱用]",
+      "when": "and(gte(frameIndex, 16), lt(frameIndex, 31))",
+      "area": [5, 144, 291, 177],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[那你不会去打工啊]",
+      "when": "and(gte(frameIndex, 31), lt(frameIndex, 38))",
+      "area": [5, 144, 291, 177],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt4[有手有脚的]",
+      "when": "and(gte(frameIndex, 38), lt(frameIndex, 48))",
+      "area": [5, 144, 291, 177],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt5[打工是不可能打工的]",
+      "when": "and(gte(frameIndex, 49), lt(frameIndex, 68))",
+      "area": [5, 144, 291, 177],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt6[这辈子不可能打工的]",
+      "when": "and(gte(frameIndex, 68), lt(frameIndex, 80))",
+      "area": [5, 144, 291, 177],
+      "minSize": 12,
+      "maxSize": 20,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 125,
+  "alias": ["切格瓦拉", "打工是不可能打工的"],
+  "previewFrame": 72
+}

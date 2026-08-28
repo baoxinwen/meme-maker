@@ -1,0 +1,27 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        0,
+        "min(avatar0Width, 500)",
+        "floor(min(avatar0Width, 500) * avatar0Height / avatar0Width)"
+      ],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "min(avatar0Width, 500)",
+      "floor(min(avatar0Width, 500) * avatar0Height / avatar0Width)"
+    ],
+    "imageSize": ["width", "height"],
+    "imageFit": "COVER"
+  },
+  "delay": 20,
+  "alias": ["迷惑"]
+}

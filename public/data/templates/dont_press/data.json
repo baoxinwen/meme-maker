@@ -1,0 +1,13 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[世界毁灭]",
+      "area": [60, 170, 200, 225],
+      "minSize": 20,
+      "maxSize": 50
+    }
+  ],
+  "alias": ["不要按"]
+}

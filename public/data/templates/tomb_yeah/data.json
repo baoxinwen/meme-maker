@@ -1,0 +1,26 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "USER",
+      "input": 0,
+      "pos": [138, 265, 145, 145],
+      "round": true,
+      "preFitSize": [145, 145],
+      "fit": "FILL"
+    },
+    {
+      "type": "USER",
+      "input": 1,
+      "optional": true,
+      "pos": [371, 312, 145, 145],
+      "round": true,
+      "preFitSize": [145, 145],
+      "preRotate": -30,
+      "preRotateMode": "CROP",
+      "fit": "FILL"
+    }
+  ],
+  "text": [],
+  "alias": ["上坟", "坟前比耶"]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "posType": "DEFORM",
+      "pos": [[1138, 1280], [2230, 1172], [2161, 2306], [1167, 2306], [0, 0]],
+      "deformSize": [1000, 1100],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[エロ本]",
+      "pos": [980, 1700],
+      "size": 150,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "angle": 88,
+      "origin": "CENTER",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["看书"]
+}

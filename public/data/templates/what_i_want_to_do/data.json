@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [350, 590, 270, 270],
+      "square": true,
+      "round": true,
+      "fit": "CONTAIN",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [],
+  "alias": ["我想上的"]
+}

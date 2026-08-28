@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [165, 220, "avatar0Width", "avatar0Height"],
+      "preFitSize": [250, 250],
+      "preRotate": 25,
+      "preRotateMode": "EXPAND",
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["加班"]
+}

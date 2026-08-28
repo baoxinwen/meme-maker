@@ -1,0 +1,26 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "posType": "DEFORM",
+      "pos": [[0, 0], [360, 0], [367, 207], [7, 207], [55, 578]],
+      "deformSize": [360, 207],
+      "fit": "COVER",
+      "filter": [
+        {
+          "type": "COLORIZE",
+          "color": [57, 78, 125]
+        },
+        {
+          "type": "CONTRAST",
+          "brightness": -0.3,
+          "contrast": 0
+        }
+      ],
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["意若思镜"]
+}

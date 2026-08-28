@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[你不要再说了]",
+      "area": [10, 440, 630, 635],
+      "minSize": 50,
+      "maxSize": 110,
+      "font": "MiSans",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["一巴掌"]
+}

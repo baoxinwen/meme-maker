@@ -1,0 +1,91 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [0, 90, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL"
+    },
+    {
+      "type": "FROM",
+      "pos": [100, 90, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL",
+      "preRotate": 90,
+      "preRotateMode": "CROP"
+    },
+    {
+      "type": "FROM",
+      "pos": [200, 90, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL",
+      "preRotate": 180,
+      "preRotateMode": "CROP"
+    },
+    {
+      "type": "FROM",
+      "pos": [300, 90, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL",
+      "preRotate": 270,
+      "preRotateMode": "CROP"
+    },
+    {
+      "type": "FROM",
+      "pos": [0, 190, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL",
+      "style": ["MIRROR"]
+    },
+    {
+      "type": "FROM",
+      "pos": [100, 190, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL",
+      "style": ["MIRROR"],
+      "preRotate": 90,
+      "preRotateMode": "CROP"
+    },
+    {
+      "type": "FROM",
+      "pos": [200, 190, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL",
+      "style": ["MIRROR"],
+      "preRotate": 180,
+      "preRotateMode": "CROP"
+    },
+    {
+      "type": "FROM",
+      "pos": [300, 190, 100, 100],
+      "square": true,
+      "preFitSize": [100, 100],
+      "fit": "FILL",
+      "style": ["MIRROR"],
+      "preRotate": 270,
+      "preRotateMode": "CROP"
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[如何提高社交质量：\n远离以下头像的人]",
+      "area": [10, 10, 390, 80],
+      "minSize": 20,
+      "maxSize": 40,
+      "font": "MiSans"
+    }
+  ],
+  "background": {
+    "size": [400, 290],
+    "color": "#ffffff"
+  },
+  "alias": ["远离"]
+}

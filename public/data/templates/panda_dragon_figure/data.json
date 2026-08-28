@@ -1,0 +1,33 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[我要玩原神]",
+      "area": [0, 0, 550, 120],
+      "minSize": 20,
+      "maxSize": 100,
+      "font": "MiSans",
+      "align": "CENTER"
+    },
+    {
+      "text": "$option[name]",
+      "area": [0, 470, 470, 550],
+      "minSize": 20,
+      "maxSize": 60,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "align": "CENTER"
+    }
+  ],
+  "options": [
+    {
+      "type": "TEXT",
+      "key": "name",
+      "label": "龙图名字",
+      "default": "责怪龙",
+      "maxLength": 10
+    }
+  ],
+  "alias": ["熊猫龙图"]
+}

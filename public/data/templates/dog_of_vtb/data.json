@@ -1,0 +1,15 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "posType": "DEFORM",
+      "pos": [[0, 0], [579, 0], [584, 430], [5, 440], [97, 32]],
+      "deformSize": [600, 450],
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["管人痴"]
+}

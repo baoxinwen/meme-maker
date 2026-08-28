@@ -1,0 +1,45 @@
+{
+  "type": "GIF",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[既然追求刺激]",
+      "when": "and(gte(frameIndex, 0), lt(frameIndex, 14))",
+      "area": [5, 108, 255, 141],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt2[就贯彻到底了]",
+      "when": "and(gte(frameIndex, 16), lt(frameIndex, 26))",
+      "area": [5, 108, 255, 141],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    },
+    {
+      "text": "$txt3[你好骚啊]",
+      "when": "and(gte(frameIndex, 42), lt(frameIndex, 61))",
+      "area": [5, 108, 255, 141],
+      "minSize": 12,
+      "maxSize": 17,
+      "font": "MiSans",
+      "color": "#ffffff",
+      "strokeColor": "#000000",
+      "strokeSize": 2,
+      "align": "CENTER"
+    }
+  ],
+  "delay": 100,
+  "alias": ["你好骚啊"],
+  "previewFrame": 50
+}

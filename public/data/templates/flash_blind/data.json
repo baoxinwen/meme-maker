@@ -1,0 +1,57 @@
+{
+  "type": "GIF",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"]
+      ],
+      "opacity": [1, 0, 0, 0]
+    },
+    {
+      "type": "TO",
+      "pos": [
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"]
+      ],
+      "style": ["INVERT"],
+      "opacity": [0, 1, 0, 0]
+    },
+    {
+      "type": "TO",
+      "pos": [
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"]
+      ],
+      "crop": [5, 5, 95, 95],
+      "cropType": "PERCENT",
+      "opacity": [0, 0, 1, 0]
+    },
+    {
+      "type": "TO",
+      "pos": [
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"],
+        [0, 0, "avatar0Width", "avatar0Height"]
+      ],
+      "style": ["INVERT"],
+      "opacity": [0, 0, 0, 1]
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": ["avatar0Width", "avatar0Height"],
+    "color": "#ffffff00",
+    "length": 4
+  },
+  "delay": 30,
+  "alias": ["闪瞎"]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[You]",
+      "area": [50, 75, 480, 275],
+      "minSize": 80,
+      "maxSize": 200,
+      "color": "#ffffff",
+      "align": "RIGHT"
+    },
+    {
+      "text": "$txt2[Tube]",
+      "area": [520, 75, 900, 275],
+      "minSize": 80,
+      "maxSize": 200,
+      "style": "BOLD",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["ph", "pornhub"]
+}

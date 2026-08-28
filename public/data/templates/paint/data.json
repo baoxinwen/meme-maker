@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [95, 107, "avatar0Width", "avatar0Height"],
+      "preFitSize": [117, 135],
+      "preRotate": -4,
+      "preRotateMode": "EXPAND",
+      "fit": "COVER",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["这像画吗"]
+}

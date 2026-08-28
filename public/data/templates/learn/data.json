@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [1440, 0, 1751, 1347],
+      "fit": "COVER",
+      "avatarOnTop": true
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[偷学群友数理基础]",
+      "area": [100, 1360, 3093, 1730],
+      "minSize": 200,
+      "maxSize": 350,
+      "style": "BOLD"
+    }
+  ],
+  "alias": ["偷学"]
+}

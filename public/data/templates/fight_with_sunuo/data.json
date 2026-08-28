@@ -1,0 +1,14 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [0, 245, 565, 1630],
+      "fit": "COVER",
+      "style": ["GRAY"],
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "alias": ["我打宿傩", "我打宿傩吗"]
+}

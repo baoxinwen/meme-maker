@@ -1,0 +1,29 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "FROM",
+      "pos": [
+        0,
+        0,
+        "floor(600 * avatar0Width / min(avatar0Width, avatar0Height))",
+        "floor(600 * avatar0Height / min(avatar0Width, avatar0Height))"
+      ],
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [],
+  "background": {
+    "size": [
+      "floor(600 * avatar0Width / min(avatar0Width, avatar0Height))",
+      "floor(600 * avatar0Height / min(avatar0Width, avatar0Height))"
+    ],
+    "color": "#00000050",
+    "imagePos": [
+      "floor((width - imageHeight) / 2)",
+      "floor((height - imageHeight) / 2)"
+    ]
+  },
+  "alias": ["卖掉了"]
+}

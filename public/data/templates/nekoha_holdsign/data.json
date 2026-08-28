@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[V我50]",
+      "area": [210, 520, 570, 765],
+      "minSize": 25,
+      "maxSize": 65,
+      "font": "MiSans",
+      "color": "#486ead",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["猫羽雫举牌", "猫猫举牌"]
+}

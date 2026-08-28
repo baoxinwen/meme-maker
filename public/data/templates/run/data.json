@@ -1,0 +1,16 @@
+{
+  "type": "IMG",
+  "avatar": [],
+  "text": [
+    {
+      "text": "$txt1[快跑]",
+      "area": [200, 195, 322, 248],
+      "minSize": 10,
+      "maxSize": 50,
+      "angle": -7,
+      "origin": "CENTER",
+      "align": "CENTER"
+    }
+  ],
+  "alias": ["快跑"]
+}

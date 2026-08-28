@@ -1,0 +1,21 @@
+{
+  "type": "IMG",
+  "avatar": [
+    {
+      "type": "TO",
+      "pos": [230, 82, 105, 105],
+      "square": true,
+      "fit": "FILL",
+      "avatarOnTop": false
+    }
+  ],
+  "text": [
+    {
+      "text": "$txt1[说完了吗？该走了]",
+      "area": [20, 232, 330, 312],
+      "minSize": 20,
+      "maxSize": 40
+    }
+  ],
+  "alias": ["该走了"]
+}
