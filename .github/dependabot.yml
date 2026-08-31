@@ -1,0 +1,30 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    ignore:
+      # 以下大版本属工具链迁移（需重写配置/代码），暂不跟进，避免反复开 PR
+      - dependency-name: "@biomejs/biome"
+        versions: [">=2"]
+      - dependency-name: "typescript"
+        versions: [">=6"]
+      - dependency-name: "vite"
+        versions: [">=7"]
+      - dependency-name: "vitest"
+        versions: [">=4"]
+      - dependency-name: "@vitest/ui"
+        versions: [">=4"]
+      - dependency-name: "@vitejs/plugin-react"
+        versions: [">=5"]
+      - dependency-name: "jsdom"
+        versions: [">=27"]

@@ -1,0 +1,31 @@
+# Docker 构建上下文排除 —— 加速构建、避免缓存失效。
+#
+# 排除所有不影响构建产物的内容：依赖、构建输出、Git 和编辑器配置等。
+
+**/node_modules
+**/dist
+.git
+.github
+.vscode
+.idea
+*.log
+coverage
+playwright-report
+test-results
+tests
+.claude
+.codex
+.cursor
+.windsurf
+.continue
+AGENTS.md
+CLAUDE.md
+docs
+components.json
+biome.json
+playwright.config.ts
+.editorconfig
+.agents/
+.zcode/
+.generated-public/
+.pnpm-store/
