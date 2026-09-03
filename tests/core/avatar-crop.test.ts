@@ -17,7 +17,7 @@ function quadrantPng(): Blob {
   ctx.fillRect(0, 2, 2, 2);
   ctx.fillStyle = "#ffffff";
   ctx.fillRect(2, 2, 2, 2);
-  return new Blob([canvas.toBuffer("image/png")], { type: "image/png" });
+  return new Blob([new Uint8Array(canvas.toBuffer("image/png"))], { type: "image/png" });
 }
 
 function splitFrame(rightColor: string): HTMLCanvasElement {

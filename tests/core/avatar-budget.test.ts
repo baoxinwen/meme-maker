@@ -14,7 +14,7 @@ import type { AvatarTemplate } from "../../src/core/schema/template";
 
 function pngBlob(width: number, height: number): Blob {
   const canvas = createCanvas(width, height) as unknown as NCanvas;
-  return new Blob([canvas.toBuffer("image/png")], { type: "image/png" });
+  return new Blob([new Uint8Array(canvas.toBuffer("image/png"))], { type: "image/png" });
 }
 
 function encodedImageBlob(
@@ -24,10 +24,10 @@ function encodedImageBlob(
 ): Blob {
   const canvas = createCanvas(width, height) as unknown as NCanvas;
   const buffer = type === "image/png" ? canvas.toBuffer(type) : canvas.toBuffer(type);
-  return new Blob([buffer], { type });
+  return new Blob([new Uint8Array(buffer)], { type });
 }
 
-function pngHeader(width: number, height: number): Uint8Array {
+function pngHeader(width: number, height: number): Uint8Array<ArrayBuffer> {
   const bytes = new Uint8Array(33);
   bytes.set([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]);
   const view = new DataView(bytes.buffer);
@@ -39,7 +39,7 @@ function pngHeader(width: number, height: number): Uint8Array {
   return bytes;
 }
 
-function jpegHeader(width: number, height: number): Uint8Array {
+function jpegHeader(width: number, height: number): Uint8Array<ArrayBuffer> {
   const bytes = new Uint8Array(21);
   bytes.set([0xff, 0xd8, 0xff, 0xc0, 0x00, 0x11, 8]);
   const view = new DataView(bytes.buffer);
@@ -50,7 +50,11 @@ function jpegHeader(width: number, height: number): Uint8Array {
   return bytes;
 }
 
-function webpHeader(width: number, height: number, format: "VP8 " | "VP8L" | "VP8X"): Uint8Array {
+function webpHeader(
+  width: number,
+  height: number,
+  format: "VP8 " | "VP8L" | "VP8X",
+): Uint8Array<ArrayBuffer> {
   const chunkSize = format === "VP8L" ? 5 : 10;
   const paddedChunkSize = chunkSize + (chunkSize & 1);
   const bytes = new Uint8Array(20 + paddedChunkSize);

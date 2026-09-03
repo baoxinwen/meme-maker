@@ -126,6 +126,6 @@ export function encodeGif(frames: readonly RuntimeCanvas[], options: GifEncodeOp
 
   gif.finish();
   // `bytesView` 返回内部缓冲区的视图，这里复制成独立 Blob。
-  const bytes = gif.bytes();
+  const bytes = new Uint8Array(gif.bytes());
   return new Blob([bytes], { type: "image/gif" });
 }

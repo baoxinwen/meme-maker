@@ -80,9 +80,12 @@ describe("场景资源预算", () => {
   it("背景源、背景层、前景层与活动蒙版复用同一对象时只计一次", async () => {
     const shared = createCanvas(1, 1) as HTMLCanvasElement;
     const avatarSource = createCanvas(1, 1) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatarSource as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatarSource as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const scene = await prepareScene(
       {
         type: "IMG",
@@ -146,9 +149,12 @@ describe("场景资源预算", () => {
   it("头像变换分配前先为外部常驻资源预留累计预算", async () => {
     const external = createCanvas(2, 2) as HTMLCanvasElement;
     const avatarSource = createCanvas(1, 1) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatarSource as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatarSource as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const runtime = getRuntime();
     let attemptedOversizedAllocation = false;
     setRuntime({
@@ -194,9 +200,12 @@ describe("场景资源预算", () => {
   ])("外部资源耗尽头像%s预算时保持场景累计错误", async (_name, limits, error) => {
     const external = createCanvas(1, 1) as HTMLCanvasElement;
     const avatarSource = createCanvas(1, 1) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatarSource as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatarSource as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     await expect(
       prepareScene(
@@ -213,9 +222,12 @@ describe("场景资源预算", () => {
 
   it("渲染前按被篡改场景中的真实常驻画布和单帧临时峰值重算", async () => {
     const avatarSource = createCanvas(1, 1) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatarSource as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatarSource as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const foregroundAsset = createCanvas(1, 1) as HTMLCanvasElement;
     const scene = await prepareScene(
       {
@@ -254,9 +266,12 @@ describe("场景资源预算", () => {
 
   it("头像 frames 与 sourceFrames 引用同一画布时只计一次", async () => {
     const avatarSource = createCanvas(1, 1) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatarSource as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatarSource as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const scene = await prepareScene(
       {
         type: "IMG",
@@ -370,9 +385,12 @@ describe("场景资源预算", () => {
 
   it("动态头像扩大帧数时按最终帧数限制裁切前工作画布", async () => {
     const avatar = createCanvas(2, 2) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     await expect(
       prepareScene(
@@ -557,9 +575,12 @@ describe("集成：头像预旋转", () => {
     avatarCtx.fillRect(0, 0, 2, 2);
     avatarCtx.fillStyle = "#2563eb";
     avatarCtx.fillRect(2, 0, 2, 2);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     const scene = await prepareScene(
       {
@@ -589,9 +610,12 @@ describe("集成：头像预旋转", () => {
   it("逐帧预适配尺寸会在 GIF 场景中保留每帧大小", async () => {
     const avatar = createCanvas(4, 4);
     avatar.getContext("2d")!.fillRect(0, 0, 4, 4);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const bg = createCanvas(40, 40);
 
     const scene = await prepareScene(
@@ -691,9 +715,12 @@ describe("集成：turn 模板（程序化旋转 GIF）", () => {
     avatarCtx.fillRect(0, 0, 15, 30);
     avatarCtx.fillStyle = "#2563eb";
     avatarCtx.fillRect(15, 0, 15, 30);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     const scene = await prepareScene(readJson(templatePath), {
       inputs: { to: avatarBlob },
@@ -725,9 +752,12 @@ describe("集成：windmill_turn 模板（完整场景旋转裁切）", () => {
     avatarCtx.fillRect(18, 0, 12, 30);
     avatarCtx.fillStyle = "#2563eb";
     avatarCtx.fillRect(0, 12, 18, 18);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     const scene = await prepareScene(readJson(templatePath), {
       inputs: { from: avatarBlob },
@@ -772,9 +802,12 @@ describe("集成：rotate_3d 模板（逐帧 Y 轴透视旋转）", () => {
     avatarCtx.fillRect(0, 0, 20, 20);
     avatarCtx.fillStyle = "#2563eb";
     avatarCtx.fillRect(20, 0, 20, 20);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     const scene = await prepareScene(readJson(templatePath), {
       inputs: { from: avatarBlob },
@@ -809,7 +842,7 @@ describe("集成：pyramid 模板（多头像循环三维投影）", () => {
     const ctx = canvas.getContext("2d")!;
     ctx.fillStyle = color;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    return new Blob([(canvas as unknown as NCanvas).toBuffer("image/png")], {
+    return new Blob([new Uint8Array((canvas as unknown as NCanvas).toBuffer("image/png"))], {
       type: "image/png",
     });
   };
@@ -887,9 +920,12 @@ describe("集成：look_flat 模板（选项驱动动态文字与画布）", () 
     avatarCtx.fillRect(0, 0, 100, 100);
     avatarCtx.fillStyle = "#2563eb";
     avatarCtx.fillRect(100, 0, 100, 100);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     const defaultScene = await prepareScene(template, { inputs: { from: avatarBlob } });
     const flatterScene = await prepareScene(template, {
@@ -1000,9 +1036,12 @@ describe("集成：覆盖层位置选项", () => {
       avatarCtx.fillRect(0, 0, avatar.width, avatar.height);
       avatarCtx.fillStyle = "#14b8a6";
       avatarCtx.fillRect(15, 10, 90, 60);
-      const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-        type: "image/png",
-      });
+      const avatarBlob = new Blob(
+        [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+        {
+          type: "image/png",
+        },
+      );
       const backgroundLayerImages = Object.fromEntries(
         await Promise.all(
           assets.map(async (asset) => [
@@ -1044,9 +1083,12 @@ describe("集成：my_wife 模板（文本选项与动态画布）", () => {
     const avatarCtx = avatar.getContext("2d")!;
     avatarCtx.fillStyle = "#f97316";
     avatarCtx.fillRect(0, 0, avatar.width, avatar.height);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const prepare = async (optionValues: Record<string, string>) =>
       prepareScene(template, {
         inputs: { from: avatarBlob },
@@ -1090,9 +1132,12 @@ describe("集成：clown 模板（布尔选项与条件头像图层）", () => {
     avatarCtx.fillRect(0, 0, 80, 90);
     avatarCtx.fillStyle = "#14b8a6";
     avatarCtx.fillRect(80, 0, 40, 90);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const prepare = async (personMode: boolean) =>
       prepareScene(template, {
         inputs: { from: avatarBlob },
@@ -1220,9 +1265,12 @@ describe("集成：动态背景资源层", () => {
     const avatar = createCanvas(6, 2) as HTMLCanvasElement;
     avatar.getContext("2d")!.fillStyle = "#0000ff";
     avatar.getContext("2d")!.fillRect(0, 0, 6, 2);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const foreground = createCanvas(2, 2) as HTMLCanvasElement;
     foreground.getContext("2d")!.fillStyle = "#ff0000";
     foreground.getContext("2d")!.fillRect(0, 0, 2, 2);
@@ -1369,7 +1417,9 @@ describe("集成：顺序多头像与可选头像", () => {
     blue.getContext("2d")!.fillStyle = "#0000ff";
     blue.getContext("2d")!.fillRect(0, 0, 8, 8);
     const toBlob = (canvas: HTMLCanvasElement) =>
-      new Blob([(canvas as unknown as NCanvas).toBuffer("image/png")], { type: "image/png" });
+      new Blob([new Uint8Array((canvas as unknown as NCanvas).toBuffer("image/png"))], {
+        type: "image/png",
+      });
 
     const template = {
       type: "IMG",
@@ -1414,7 +1464,9 @@ describe("集成：顺序多头像与可选头像", () => {
     blue.getContext("2d")!.fillStyle = "#0000ff";
     blue.getContext("2d")!.fillRect(0, 0, 4, 4);
     const toBlob = (canvas: HTMLCanvasElement) =>
-      new Blob([(canvas as unknown as NCanvas).toBuffer("image/png")], { type: "image/png" });
+      new Blob([new Uint8Array((canvas as unknown as NCanvas).toBuffer("image/png"))], {
+        type: "image/png",
+      });
     const template = {
       type: "IMG",
       avatar: [
@@ -1463,9 +1515,12 @@ describe("集成：逐帧头像属性", () => {
     ["preRotate", { preRotate: [0, 30, 60] }],
   ])("单背景模板按 %s 的逐帧声明扩大场景帧数", async (_name, declaration) => {
     const avatar = createCanvas(2, 2) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const scene = await prepareScene(
       {
         type: "IMG",
@@ -1499,9 +1554,12 @@ describe("集成：逐帧头像属性", () => {
 
   it("仅有逐帧滤镜参数时也扩大场景帧数", async () => {
     const avatar = createCanvas(2, 2) as HTMLCanvasElement;
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const scene = await prepareScene(
       {
         type: "IMG",
@@ -1552,9 +1610,12 @@ describe("集成：逐帧头像属性", () => {
     const avatarCtx = avatar.getContext("2d")!;
     avatarCtx.fillStyle = "#ff0000";
     avatarCtx.fillRect(0, 0, 8, 8);
-    const avatarBlob = new Blob([(avatar as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatarBlob = new Blob(
+      [new Uint8Array((avatar as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
     const scene = await prepareScene(
       {
         type: "IMG",
@@ -1626,9 +1687,12 @@ describe("集成：DEFORM 源尺寸适配", () => {
     sourceCtx.fillRect(1, 0, 2, 2);
     sourceCtx.fillStyle = "#0000ff";
     sourceCtx.fillRect(3, 0, 1, 2);
-    const avatar = new Blob([(source as unknown as NCanvas).toBuffer("image/png")], {
-      type: "image/png",
-    });
+    const avatar = new Blob(
+      [new Uint8Array((source as unknown as NCanvas).toBuffer("image/png"))],
+      {
+        type: "image/png",
+      },
+    );
 
     const scene = await prepareScene(
       {
@@ -1861,7 +1925,9 @@ describe("非 optional 图层的 visibleWhenInput", () => {
     blue.getContext("2d")!.fillStyle = "#0000ff";
     blue.getContext("2d")!.fillRect(0, 0, 4, 4);
     const toBlob = (canvas: HTMLCanvasElement) =>
-      new Blob([(canvas as unknown as NCanvas).toBuffer("image/png")], { type: "image/png" });
+      new Blob([new Uint8Array((canvas as unknown as NCanvas).toBuffer("image/png"))], {
+        type: "image/png",
+      });
     const template = {
       type: "IMG",
       avatar: [

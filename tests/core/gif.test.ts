@@ -26,7 +26,7 @@ const DISPOSAL_PALETTE = [
   [0, 0, 0],
 ];
 
-function disposalBackgroundGif(backgroundIsTransparent: boolean): Uint8Array {
+function disposalBackgroundGif(backgroundIsTransparent: boolean): Uint8Array<ArrayBuffer> {
   const encoder = GIFEncoder();
   const transparentIndex = backgroundIsTransparent ? 0 : 3;
   encoder.writeFrame(new Uint8Array([1, 1, 1, 1]), 2, 2, {
@@ -48,10 +48,10 @@ function disposalBackgroundGif(backgroundIsTransparent: boolean): Uint8Array {
     },
   );
   encoder.finish();
-  return encoder.bytes();
+  return new Uint8Array(encoder.bytes());
 }
 
-function partialFirstFrameGif(): Uint8Array {
+function partialFirstFrameGif(): Uint8Array<ArrayBuffer> {
   const bytes = disposalBackgroundGif(false);
   const descriptor = bytes.indexOf(0x2c);
   if (descriptor < 0) {
@@ -70,7 +70,7 @@ function partialFirstFrameGif(): Uint8Array {
   return bytes;
 }
 
-function concatBytes(...parts: Uint8Array[]): Uint8Array {
+function concatBytes(...parts: Uint8Array[]): Uint8Array<ArrayBuffer> {
   const result = new Uint8Array(parts.reduce((total, part) => total + part.byteLength, 0));
   let offset = 0;
   for (const part of parts) {
@@ -80,11 +80,18 @@ function concatBytes(...parts: Uint8Array[]): Uint8Array {
   return result;
 }
 
-function insertBytes(source: Uint8Array, offset: number, insertion: Uint8Array): Uint8Array {
+function insertBytes(
+  source: Uint8Array,
+  offset: number,
+  insertion: Uint8Array,
+): Uint8Array<ArrayBuffer> {
   return concatBytes(source.subarray(0, offset), insertion, source.subarray(offset));
 }
 
-function insertBeforeFirstImage(source: Uint8Array, insertion: Uint8Array): Uint8Array {
+function insertBeforeFirstImage(
+  source: Uint8Array,
+  insertion: Uint8Array,
+): Uint8Array<ArrayBuffer> {
   const descriptor = source.indexOf(0x2c);
   if (descriptor < 0) {
     throw new Error("测试 GIF 缺少图像描述符");
@@ -101,7 +108,7 @@ function firstGraphicControlExtension(source: Uint8Array): number {
   throw new Error("测试 GIF 缺少图形控制扩展");
 }
 
-function subBlocks(payloadBytes: number, blockSize = 255): Uint8Array {
+function subBlocks(payloadBytes: number, blockSize = 255): Uint8Array<ArrayBuffer> {
   const blockCount = Math.ceil(payloadBytes / blockSize);
   const result = new Uint8Array(payloadBytes + blockCount + 1);
   let remaining = payloadBytes;
@@ -116,11 +123,11 @@ function subBlocks(payloadBytes: number, blockSize = 255): Uint8Array {
   return result;
 }
 
-function commentExtension(payloadBytes: number): Uint8Array {
+function commentExtension(payloadBytes: number): Uint8Array<ArrayBuffer> {
   return concatBytes(new Uint8Array([0x21, 0xfe]), subBlocks(payloadBytes));
 }
 
-function applicationExtension(payloadBytes: number, blockSize = 255): Uint8Array {
+function applicationExtension(payloadBytes: number, blockSize = 255): Uint8Array<ArrayBuffer> {
   const identifier = new TextEncoder().encode("MEMETEST001");
   return concatBytes(
     new Uint8Array([0x21, 0xff, identifier.byteLength]),
@@ -129,7 +136,7 @@ function applicationExtension(payloadBytes: number, blockSize = 255): Uint8Array
   );
 }
 
-function plainTextRecords(count: number): Uint8Array {
+function plainTextRecords(count: number): Uint8Array<ArrayBuffer> {
   const result = new Uint8Array(count * 4);
   for (let index = 0; index < count; index += 1) {
     const offset = index * 4;
@@ -142,7 +149,7 @@ function plainTextRecords(count: number): Uint8Array {
   return result;
 }
 
-function addImageDataPadding(source: Uint8Array, payloadBytes: number): Uint8Array {
+function addImageDataPadding(source: Uint8Array, payloadBytes: number): Uint8Array<ArrayBuffer> {
   const descriptor = source.indexOf(0x2c);
   if (descriptor < 0) {
     throw new Error("测试 GIF 缺少图像描述符");
@@ -158,7 +165,7 @@ function addImageDataPadding(source: Uint8Array, payloadBytes: number): Uint8Arr
   return insertBytes(source, offset, padding.subarray(0, padding.byteLength - 1));
 }
 
-function localColorTableBackgroundGif(): Uint8Array {
+function localColorTableBackgroundGif(): Uint8Array<ArrayBuffer> {
   const source = disposalBackgroundGif(true);
   const descriptor = source.indexOf(0x2c);
   if (descriptor < 0) {
@@ -179,7 +186,7 @@ function localColorTableBackgroundGif(): Uint8Array {
   return insertBytes(source, descriptor + 10, new Uint8Array([0, 0, 255, 255, 0, 0]));
 }
 
-function disposalPreviousGif(): Uint8Array {
+function disposalPreviousGif(): Uint8Array<ArrayBuffer> {
   const encoder = GIFEncoder();
   encoder.writeFrame(new Uint8Array([0, 0, 0, 0]), 2, 2, {
     palette: DISPOSAL_PALETTE,
@@ -199,7 +206,7 @@ function disposalPreviousGif(): Uint8Array {
     transparentIndex: 3,
   });
   encoder.finish();
-  return encoder.bytes();
+  return new Uint8Array(encoder.bytes());
 }
 
 async function expectRejectedBeforeParserCopy(

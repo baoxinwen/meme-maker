@@ -72,7 +72,7 @@ function makePlaceholderAvatarBlob(): Blob {
   ctx.beginPath();
   ctx.arc(size / 2, size * 0.58, 22, 0.1 * Math.PI, 0.9 * Math.PI);
   ctx.stroke();
-  return new Blob([c.toBuffer("image/png")], { type: "image/png" });
+  return new Blob([new Uint8Array(c.toBuffer("image/png"))], { type: "image/png" });
 }
 
 function makeSolidAvatarBlob(color: string): Blob {
@@ -80,7 +80,7 @@ function makeSolidAvatarBlob(color: string): Blob {
   const ctx = c.getContext("2d");
   ctx.fillStyle = color;
   ctx.fillRect(0, 0, 128, 128);
-  return new Blob([c.toBuffer("image/png")], { type: "image/png" });
+  return new Blob([new Uint8Array(c.toBuffer("image/png"))], { type: "image/png" });
 }
 
 interface Entry {
