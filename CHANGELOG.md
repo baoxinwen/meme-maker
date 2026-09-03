@@ -5,6 +5,18 @@
 格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)，
 版本号遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [Unreleased]
+
+### Changed
+
+- 升级 TypeScript 至 5.9、lucide-react 至 1.41
+- 升级 @types/node 至 26.4.1、@types/react-dom 至 19.2.7
+- 升级 CI 中的 docker/setup-qemu-action 至 4.3
+
+### Removed
+
+- 清理 .gitignore 中不再使用的模板遗留条目（dist-ssr、Playwright 认证目录等）
+
 ## [1.0.0] - 2026-09-07
 
 首个正式版本：一款完全在浏览器中运行的表情包制作工具，所有图像处理均在本地完成，无需上传服务器。

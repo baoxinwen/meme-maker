@@ -1,5 +1,7 @@
 # MemeMaker
 
+[![构建并推送 Docker 镜像](https://github.com/baoxinwen/meme-maker/actions/workflows/docker.yml/badge.svg)](https://github.com/baoxinwen/meme-maker/actions/workflows/docker.yml)
+
 一款完全在浏览器中运行的表情包制作工具。选择模板、上传头像、编辑文字，即可生成 PNG 或 GIF；图片处理均在本地完成，无需上传到服务器。
 
 ## 功能
