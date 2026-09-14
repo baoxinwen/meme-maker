@@ -43,7 +43,7 @@
     "fabric": "^7.4.0",
     "gifenc": "^1.0.3",
     "gifuct-js": "^2.1.2",
-    "jszip": "^3.10.1",
+    "jszip": "^3.10.2",
     "loglevel": "^1.9.2",
     "lucide-react": "^1.42.0",
     "radix-ui": "^1.6.7",
