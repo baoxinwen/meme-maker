@@ -9,7 +9,7 @@
 # 最终镜像约 30MB（nginx:alpine + dist 静态文件）。
 
 # ---- 阶段 1：构建 ----
-FROM public.ecr.aws/docker/library/node:26.8.1-alpine3.23@sha256:871eb674ad6e692c91330a8959f1ce2f80ba3f445cdc54e306869d2ea265e42d AS builder
+FROM public.ecr.aws/docker/library/node:26.10.0-alpine3.23@sha256:c3c6e314fd42e41962360b2482fc18d150beb47976c3aa7b8b9689d7ef42a5c2 AS builder
 
 WORKDIR /app
 
