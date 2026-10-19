@@ -25,7 +25,7 @@ COPY . .
 RUN pnpm build
 
 # ---- 阶段 2：运行 ----
-FROM public.ecr.aws/docker/library/nginx:1.31.5-alpine3.24@sha256:72ba65eb42c10344912a84ff42408db7d34f2feb642204570ab8fc5ffd29f1d3 AS runtime
+FROM public.ecr.aws/docker/library/nginx:1.31.7-alpine3.24@sha256:892bb2152464f0c5d8972593a5f5afaf8054552580b699d95f8ff4af08c2d33d AS runtime
 
 # 拷 nginx 站点配置（SPA fallback、缓存策略）
 COPY nginx.conf /etc/nginx/conf.d/default.conf
